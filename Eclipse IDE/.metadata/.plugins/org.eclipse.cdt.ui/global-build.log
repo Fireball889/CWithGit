@@ -1,0 +1,2081 @@
+21:10:32 **** Rebuild of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+Info: Nothing to build for Hello World
+Info: Nothing to build for Hello World
+Info: Nothing to build for Hello World
+Info: Nothing to build for Hello World
+Info: Nothing to build for Hello World
+21:16:11 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+21:18:34 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+21:19:29 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:21:17: warning: excess elements in scalar initializer
+  int array = {0,1,2,3,4,5};
+                 ^
+..\src\Hello World.c:21:17: note: (near initialization for 'array')
+..\src\Hello World.c:21:19: warning: excess elements in scalar initializer
+  int array = {0,1,2,3,4,5};
+                   ^
+..\src\Hello World.c:21:19: note: (near initialization for 'array')
+..\src\Hello World.c:21:21: warning: excess elements in scalar initializer
+  int array = {0,1,2,3,4,5};
+                     ^
+..\src\Hello World.c:21:21: note: (near initialization for 'array')
+..\src\Hello World.c:21:23: warning: excess elements in scalar initializer
+  int array = {0,1,2,3,4,5};
+                       ^
+..\src\Hello World.c:21:23: note: (near initialization for 'array')
+..\src\Hello World.c:21:25: warning: excess elements in scalar initializer
+  int array = {0,1,2,3,4,5};
+                         ^
+..\src\Hello World.c:21:25: note: (near initialization for 'array')
+..\src\Hello World.c:21:6: warning: unused variable 'array' [-Wunused-variable]
+  int array = {0,1,2,3,4,5};
+      ^~~~~
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+21:19:47 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:21:6: warning: unused variable 'array' [-Wunused-variable]
+  int array[6] = {0,1,2,3,4,5};
+      ^~~~~
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+21:20:11 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:21:6: warning: unused variable 'array' [-Wunused-variable]
+  int array[6] = {0,1,2,3,4,5};
+      ^~~~~
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+21:20:31 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:24:19: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("array = %d", array);
+                   ^
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+21:20:53 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+21:21:06 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+Info: Nothing to build for Hello World
+22:25:08 **** Build of configuration Debug for project If Statement (Guess Number Game) ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Enterprise Vault\EVClient\;C:\Users\fongbill\AppData\Local\Microsoft\WindowsApps]
+Info: Nothing to build for Hello World
+22:26:20 **** Incremental Build of configuration Debug for project If Statement (Guess Number Game) ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Enterprise Vault\EVClient\;C:\Users\fongbill\AppData\Local\Microsoft\WindowsApps]
+22:35:54 **** Incremental Build of configuration Debug for project If Statement (Guess Number Game) ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Enterprise Vault\EVClient\;C:\Users\fongbill\AppData\Local\Microsoft\WindowsApps]
+22:36:06 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'guessNumber':
+..\src\Hello World.c:27:6: warning: type of 'guess' defaults to 'int' [-Wimplicit-int]
+  int guessNumber (guess) {
+      ^~~~~~~~~~~
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+22:36:20 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'guessNumber':
+..\src\Hello World.c:27:6: warning: type of 'guess' defaults to 'int' [-Wimplicit-int]
+  int guessNumber (guess) {
+      ^~~~~~~~~~~
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+22:37:30 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'guessNumber':
+..\src\Hello World.c:27:6: warning: type of 'guess' defaults to 'int' [-Wimplicit-int]
+  int guessNumber (guess) {
+      ^~~~~~~~~~~
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+22:37:48 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'guessNumber':
+..\src\Hello World.c:27:6: warning: type of 'guess' defaults to 'int' [-Wimplicit-int]
+  int guessNumber (guess) {
+      ^~~~~~~~~~~
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+22:38:14 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'guessNumber':
+..\src\Hello World.c:27:6: warning: type of 'guess' defaults to 'int' [-Wimplicit-int]
+  int guessNumber (guess) {
+      ^~~~~~~~~~~
+..\src\Hello World.c:29:11: warning: unknown escape sequence: '\C'
+    printf("\Correct. You guessed it!");
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+22:38:37 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'guessNumber':
+..\src\Hello World.c:27:6: warning: type of 'guess' defaults to 'int' [-Wimplicit-int]
+  int guessNumber (guess) {
+      ^~~~~~~~~~~
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+22:39:11 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'guessNumber':
+..\src\Hello World.c:27:6: warning: type of 'guess' defaults to 'int' [-Wimplicit-int]
+  int guessNumber (guess) {
+      ^~~~~~~~~~~
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+22:39:45 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'guessNumber':
+..\src\Hello World.c:27:6: warning: type of 'guess' defaults to 'int' [-Wimplicit-int]
+  int guessNumber (guess) {
+      ^~~~~~~~~~~
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+22:39:54 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'guessNumber':
+..\src\Hello World.c:27:6: warning: type of 'guess' defaults to 'int' [-Wimplicit-int]
+  int guessNumber (guess) {
+      ^~~~~~~~~~~
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+22:40:58 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'guessNumber':
+..\src\Hello World.c:27:6: warning: type of 'guess' defaults to 'int' [-Wimplicit-int]
+  int guessNumber (guess) {
+      ^~~~~~~~~~~
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+22:41:42 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'guessNumber':
+..\src\Hello World.c:27:6: warning: type of 'guess' defaults to 'int' [-Wimplicit-int]
+  int guessNumber (guess) {
+      ^~~~~~~~~~~
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+22:42:03 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'guessNumber':
+..\src\Hello World.c:27:6: warning: type of 'guess' defaults to 'int' [-Wimplicit-int]
+  int guessNumber (guess) {
+      ^~~~~~~~~~~
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+22:42:30 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'guessNumber':
+..\src\Hello World.c:27:6: warning: type of 'guess' defaults to 'int' [-Wimplicit-int]
+  int guessNumber (guess) {
+      ^~~~~~~~~~~
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+22:42:58 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+22:43:12 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:36:14: warning: overflow in implicit constant conversion [-Woverflow]
+  guessNumber(555);
+              ^~~
+..\src\Hello World.c:37:14: warning: overflow in implicit constant conversion [-Woverflow]
+  guessNumber(600);
+              ^~~
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+22:43:29 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'guessNumber':
+..\src\Hello World.c:29:43: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+    printf("The number you've guessed was %d. \nResult: Correct. You guessed it!\n", guess);
+                                           ^
+..\src\Hello World.c:31:43: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+    printf("The number you've guessed was %d. \nResult: Your guess is too high\n", guess);
+                                           ^
+..\src\Hello World.c:33:43: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+    printf("The number you've guessed was %d. \nResult: your guess is too low\n", guess);
+                                           ^
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+22:43:44 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'guessNumber':
+..\src\Hello World.c:29:43: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+    printf("The number you've guessed was %d. \nResult: Correct. You guessed it!\n", guess);
+                                           ^
+..\src\Hello World.c:31:43: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+    printf("The number you've guessed was %d. \nResult: Your guess is too high\n", guess);
+                                           ^
+..\src\Hello World.c:33:43: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+    printf("The number you've guessed was %d. \nResult: your guess is too low\n", guess);
+                                           ^
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+22:43:54 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+23:20:47 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:20:18: error: stray '\223' in program
+  char dest[20] = “Hello”;
+                  ^
+..\src\Hello World.c:20:24: error: stray '\224' in program
+  char dest[20] = “Hello”;
+                        ^
+..\src\Hello World.c:20:19: error: 'Hello' undeclared (first use in this function)
+  char dest[20] = “Hello”;
+                   ^~~~~
+..\src\Hello World.c:20:19: note: each undeclared identifier is reported only once for each function it appears in
+..\src\Hello World.c:21:17: error: stray '\223' in program
+  char src[20] = “World”;
+                 ^
+..\src\Hello World.c:21:23: error: stray '\224' in program
+  char src[20] = “World”;
+                       ^
+..\src\Hello World.c:21:18: error: 'World' undeclared (first use in this function)
+  char src[20] = “World”;
+                  ^~~~~
+..\src\Hello World.c:22:2: warning: implicit declaration of function 'strncat' [-Wimplicit-function-declaration]
+  strncat(dest, src, 3);
+  ^~~~~~~
+..\src\Hello World.c:22:2: warning: incompatible implicit declaration of built-in function 'strncat'
+..\src\Hello World.c:22:2: note: include '<string.h>' or provide a declaration of 'strncat'
+..\src\Hello World.c:23:9: error: stray '\223' in program
+  printf(“%s\n”, dest);
+         ^
+..\src\Hello World.c:23:10: error: expected expression before '%' token
+  printf(“%s\n”, dest);
+          ^
+..\src\Hello World.c:23:12: error: stray '\' in program
+  printf(“%s\n”, dest);
+            ^
+..\src\Hello World.c:23:14: error: stray '\224' in program
+  printf(“%s\n”, dest);
+              ^
+..\src\Hello World.c:25:9: error: stray '\223' in program
+  printf(“%s\n”, dest);
+         ^
+..\src\Hello World.c:25:10: error: expected expression before '%' token
+  printf(“%s\n”, dest);
+          ^
+..\src\Hello World.c:25:12: error: stray '\' in program
+  printf(“%s\n”, dest);
+            ^
+..\src\Hello World.c:25:14: error: stray '\224' in program
+  printf(“%s\n”, dest);
+              ^
+..\src\Hello World.c:25:10: error: expected declaration or statement at end of input
+  printf(“%s\n”, dest);
+          ^
+23:21:30 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:22:5: warning: implicit declaration of function 'strncat' [-Wimplicit-function-declaration]
+     strncat(dest,src,3);
+     ^~~~~~~
+..\src\Hello World.c:22:5: warning: incompatible implicit declaration of built-in function 'strncat'
+..\src\Hello World.c:22:5: note: include '<string.h>' or provide a declaration of 'strncat'
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+23:34:30 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+23:35:21 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:20:2: error: 'arrray' undeclared (first use in this function)
+  arrray[] = "This is an array of string";
+  ^~~~~~
+..\src\Hello World.c:20:2: note: each undeclared identifier is reported only once for each function it appears in
+..\src\Hello World.c:20:9: error: expected expression before ']' token
+  arrray[] = "This is an array of string";
+         ^
+..\src\Hello World.c:21:22: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  for (int i = 0; i < strlen(array); i ++) {
+                      ^~~~~~
+..\src\Hello World.c:21:22: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Hello World.c:21:22: note: include '<string.h>' or provide a declaration of 'strlen'
+..\src\Hello World.c:21:29: error: 'array' undeclared (first use in this function)
+  for (int i = 0; i < strlen(array); i ++) {
+                             ^~~~~
+23:35:37 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:20:2: error: 'arrray' undeclared (first use in this function)
+  arrray[] = "This is an array of string";
+  ^~~~~~
+..\src\Hello World.c:20:2: note: each undeclared identifier is reported only once for each function it appears in
+..\src\Hello World.c:20:9: error: expected expression before ']' token
+  arrray[] = "This is an array of string";
+         ^
+..\src\Hello World.c:21:22: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  for (int i = 0; i < strlen(array); i ++) {
+                      ^~~~~~
+..\src\Hello World.c:21:22: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Hello World.c:21:22: note: include '<string.h>' or provide a declaration of 'strlen'
+..\src\Hello World.c:21:29: error: 'array' undeclared (first use in this function)
+  for (int i = 0; i < strlen(array); i ++) {
+                             ^~~~~
+23:35:58 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:20:2: error: 'arrray' undeclared (first use in this function)
+  arrray[] = "This is an array of string";
+  ^~~~~~
+..\src\Hello World.c:20:2: note: each undeclared identifier is reported only once for each function it appears in
+..\src\Hello World.c:20:9: error: expected expression before ']' token
+  arrray[] = "This is an array of string";
+         ^
+..\src\Hello World.c:21:22: warning: implicit declaration of function 'strnlen' [-Wimplicit-function-declaration]
+  for (int i = 0; i < strnlen(array); i ++) {
+                      ^~~~~~~
+..\src\Hello World.c:21:30: error: 'array' undeclared (first use in this function)
+  for (int i = 0; i < strnlen(array); i ++) {
+                              ^~~~~
+23:36:04 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:20:2: error: 'arrray' undeclared (first use in this function)
+  arrray[] = "This is an array of string";
+  ^~~~~~
+..\src\Hello World.c:20:2: note: each undeclared identifier is reported only once for each function it appears in
+..\src\Hello World.c:20:9: error: expected expression before ']' token
+  arrray[] = "This is an array of string";
+         ^
+..\src\Hello World.c:21:22: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  for (int i = 0; i < strlen(array); i ++) {
+                      ^~~~~~
+..\src\Hello World.c:21:22: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Hello World.c:21:22: note: include '<string.h>' or provide a declaration of 'strlen'
+..\src\Hello World.c:21:29: error: 'array' undeclared (first use in this function)
+  for (int i = 0; i < strlen(array); i ++) {
+                             ^~~~~
+23:36:22 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:21:22: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  for (int i = 0; i < strlen(array); i ++) {
+                      ^~~~~~
+..\src\Hello World.c:21:22: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Hello World.c:21:22: note: include '<string.h>' or provide a declaration of 'strlen'
+..\src\Hello World.c:21:29: error: 'array' undeclared (first use in this function)
+  for (int i = 0; i < strlen(array); i ++) {
+                             ^~~~~
+..\src\Hello World.c:21:29: note: each undeclared identifier is reported only once for each function it appears in
+..\src\Hello World.c:20:7: warning: unused variable 'arrray' [-Wunused-variable]
+  char arrray[] = "This is an array of string";
+       ^~~~~~
+23:36:51 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:21:22: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  for (int i = 0; i < strlen(array); i ++) {
+                      ^~~~~~
+..\src\Hello World.c:21:22: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Hello World.c:21:22: note: include '<string.h>' or provide a declaration of 'strlen'
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+23:37:06 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:21:22: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  for (int i = 0; i < strlen(array); i ++) {
+                      ^~~~~~
+..\src\Hello World.c:21:22: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Hello World.c:21:22: note: include '<string.h>' or provide a declaration of 'strlen'
+..\src\Hello World.c:22:12: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   printf("%s\n",array[i]);
+            ^
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+Info: Nothing to build for Hello World
+23:37:58 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:21:2: warning: implicit declaration of function 'print' [-Wimplicit-function-declaration]
+  print(strlen(array));
+  ^~~~~
+..\src\Hello World.c:21:8: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  print(strlen(array));
+        ^~~~~~
+..\src\Hello World.c:21:8: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Hello World.c:21:8: note: include '<string.h>' or provide a declaration of 'strlen'
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+src\Hello World.o: In function `main':
+C:\Users\fongbill\Desktop\old desktop\Documents\9 Web Design\9 C\Eclipse IDE\Hello World\Debug/../src/Hello World.c:21: undefined reference to `print'
+collect2.exe: error: ld returned 1 exit status
+23:38:11 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:21:9: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  printf(strlen(array));
+         ^~~~~~
+..\src\Hello World.c:21:9: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Hello World.c:21:9: note: include '<string.h>' or provide a declaration of 'strlen'
+..\src\Hello World.c:21:9: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [-Wint-conversion]
+In file included from ..\src\Hello World.c:11:0:
+c:\mingw\include\stdio.h:454:38: note: expected 'const char *' but argument is of type 'unsigned int'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int printf (const char *, ...);
+                                      ^~~~~~
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+23:38:58 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:21:17: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  printf("$d\n", strlen(array));
+                 ^~~~~~
+..\src\Hello World.c:21:17: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Hello World.c:21:17: note: include '<string.h>' or provide a declaration of 'strlen'
+..\src\Hello World.c:21:9: warning: too many arguments for format [-Wformat-extra-args]
+  printf("$d\n", strlen(array));
+         ^~~~~~
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+23:39:07 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:21:17: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  printf("%d\n", strlen(array));
+                 ^~~~~~
+..\src\Hello World.c:21:17: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Hello World.c:21:17: note: include '<string.h>' or provide a declaration of 'strlen'
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+23:39:40 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:21:22: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  for (int i = 0; i < strlen(array); i++) {
+                      ^~~~~~
+..\src\Hello World.c:21:22: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Hello World.c:21:22: note: include '<string.h>' or provide a declaration of 'strlen'
+..\src\Hello World.c:22:12: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   printf("%s\n",array[i]);
+            ^
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+23:40:06 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:21:22: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  for (int i = 0; i < strlen(array); i++) {
+                      ^~~~~~
+..\src\Hello World.c:21:22: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Hello World.c:21:22: note: include '<string.h>' or provide a declaration of 'strlen'
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+23:40:39 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:21:22: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  for (int i = 0; i < strlen(array); i++) {
+                      ^~~~~~
+..\src\Hello World.c:21:22: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Hello World.c:21:22: note: include '<string.h>' or provide a declaration of 'strlen'
+..\src\Hello World.c:22:12: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   printf("%s", array[i]);
+            ^
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+Info: Nothing to build for Hello World
+07:00:08 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:22:12: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   printf("%s", array[i]);
+            ^
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+07:00:40 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:21:22: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  for (int i = 0; i < strlen(array); i++) {
+                      ^~~~~~
+..\src\Hello World.c:21:22: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Hello World.c:21:22: note: include '<string.h>' or provide a declaration of 'strlen'
+..\src\Hello World.c:22:12: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   printf("%s", array[i]);
+            ^
+..\src\Hello World.c:24:9: error: 'EXIT_SUCCSES' undeclared (first use in this function)
+  return EXIT_SUCCSES;
+         ^~~~~~~~~~~~
+..\src\Hello World.c:24:9: note: each undeclared identifier is reported only once for each function it appears in
+07:00:58 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:21:22: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  for (int i = 0; i < strlen(array); i++) {
+                      ^~~~~~
+..\src\Hello World.c:21:22: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Hello World.c:21:22: note: include '<string.h>' or provide a declaration of 'strlen'
+..\src\Hello World.c:24:9: error: 'EXIT_SUCCSES' undeclared (first use in this function)
+  return EXIT_SUCCSES;
+         ^~~~~~~~~~~~
+..\src\Hello World.c:24:9: note: each undeclared identifier is reported only once for each function it appears in
+07:01:25 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:21:22: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  for (int i = 0; i < strlen(array); i++) {
+                      ^~~~~~
+..\src\Hello World.c:21:22: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Hello World.c:21:22: note: include '<string.h>' or provide a declaration of 'strlen'
+..\src\Hello World.c:22:12: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   printf("%s", i);
+            ^
+..\src\Hello World.c:24:9: error: 'EXIT_SUCCSES' undeclared (first use in this function)
+  return EXIT_SUCCSES;
+         ^~~~~~~~~~~~
+..\src\Hello World.c:24:9: note: each undeclared identifier is reported only once for each function it appears in
+07:01:31 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:21:22: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  for (int i = 0; i < strlen(array); i++) {
+                      ^~~~~~
+..\src\Hello World.c:21:22: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Hello World.c:21:22: note: include '<string.h>' or provide a declaration of 'strlen'
+..\src\Hello World.c:24:9: error: 'EXIT_SUCCSES' undeclared (first use in this function)
+  return EXIT_SUCCSES;
+         ^~~~~~~~~~~~
+..\src\Hello World.c:24:9: note: each undeclared identifier is reported only once for each function it appears in
+07:06:05 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:21:20: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  int arrayLength = strlen(array);
+                    ^~~~~~
+..\src\Hello World.c:21:20: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Hello World.c:21:20: note: include '<string.h>' or provide a declaration of 'strlen'
+..\src\Hello World.c:23:12: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   printf("%s", array[i]);
+            ^
+..\src\Hello World.c:25:9: error: 'EXIT_SUCCSES' undeclared (first use in this function)
+  return EXIT_SUCCSES;
+         ^~~~~~~~~~~~
+..\src\Hello World.c:25:9: note: each undeclared identifier is reported only once for each function it appears in
+07:06:09 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:21:20: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  int arrayLength = strlen(array);
+                    ^~~~~~
+..\src\Hello World.c:21:20: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Hello World.c:21:20: note: include '<string.h>' or provide a declaration of 'strlen'
+..\src\Hello World.c:23:12: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   printf("%s", array[i]);
+            ^
+..\src\Hello World.c:25:9: error: 'EXIT_SUCCSES' undeclared (first use in this function)
+  return EXIT_SUCCSES;
+         ^~~~~~~~~~~~
+..\src\Hello World.c:25:9: note: each undeclared identifier is reported only once for each function it appears in
+07:06:18 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:21:20: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  int arrayLength = strlen(array);
+                    ^~~~~~
+..\src\Hello World.c:21:20: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Hello World.c:21:20: note: include '<string.h>' or provide a declaration of 'strlen'
+..\src\Hello World.c:23:12: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   printf("%s", array[i]);
+            ^
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+Info: Nothing to build for Hello World
+07:07:02 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:24:12: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   printf("%s", array[i]);
+            ^
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+Info: Nothing to build for Hello World
+07:08:51 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+07:20:44 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:22:7: warning: unused variable 'array2' [-Wunused-variable]
+  char array2[] = "This is array2";
+       ^~~~~~
+..\src\Hello World.c: At top level:
+..\src\Hello World.c:33:18: error: expected ')' before numeric constant
+ strncat(dest,src,3);
+                  ^
+..\src\Hello World.c:34:8: error: expected declaration specifiers or '...' before string constant
+ printf("%s\n",dest);
+        ^~~~~~
+..\src\Hello World.c:34:15: error: expected declaration specifiers or '...' before 'dest'
+ printf("%s\n",dest);
+               ^~~~
+..\src\Hello World.c:35:18: error: expected ')' before numeric constant
+ strncat(dest,src,20);
+                  ^~
+..\src\Hello World.c:36:8: error: expected declaration specifiers or '...' before string constant
+ printf("%s\n",dest);
+        ^~~~~~
+..\src\Hello World.c:36:15: error: expected declaration specifiers or '...' before 'dest'
+ printf("%s\n",dest);
+               ^~~~
+07:20:51 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c:33:18: error: expected ')' before numeric constant
+ strncat(dest,src,3);
+                  ^
+..\src\Hello World.c:34:8: error: expected declaration specifiers or '...' before string constant
+ printf("%s\n",dest);
+        ^~~~~~
+..\src\Hello World.c:34:15: error: expected declaration specifiers or '...' before 'dest'
+ printf("%s\n",dest);
+               ^~~~
+..\src\Hello World.c:35:18: error: expected ')' before numeric constant
+ strncat(dest,src,20);
+                  ^~
+..\src\Hello World.c:36:8: error: expected declaration specifiers or '...' before string constant
+ printf("%s\n",dest);
+        ^~~~~~
+..\src\Hello World.c:36:15: error: expected declaration specifiers or '...' before 'dest'
+ printf("%s\n",dest);
+               ^~~~
+07:24:36 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:31:14: warning: initialization makes integer from pointer without a cast [-Wint-conversion]
+  char name = "John";
+              ^~~~~~
+..\src\Hello World.c:32:13: warning: passing argument 1 of 'strncmp' makes pointer from integer without a cast [-Wint-conversion]
+ if (strncmp(name, "John", 4) == 0) {
+             ^~~~
+In file included from ..\src\Hello World.c:13:0:
+c:\mingw\include\string.h:85:38: note: expected 'const char *' but argument is of type 'char'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int strncmp (const char *, const char *, size_t) __MINGW_ATTRIB_PURE;
+                                      ^~~~~~~
+..\src\Hello World.c:35:8: warning: missing terminating " character
+ printf("You are not John. Go away.\n”);
+        ^
+..\src\Hello World.c:35:8: error: missing terminating " character
+ printf("You are not John. Go away.\n”);
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\Hello World.c:36:1: error: expected expression before '}' token
+ }
+ ^
+..\src\Hello World.c:36:1: error: expected ';' before '}' token
+22:13:50 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+Info: Nothing to build for Hello World
+22:14:15 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+22:17:59 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+00:12:21 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:24:7: error: 'n' undeclared (first use in this function)
+   if (n < 5) {
+       ^
+..\src\Hello World.c:24:7: note: each undeclared identifier is reported only once for each function it appears in
+..\src\Hello World.c:26:13: error: expected '(' before '{' token
+   } else if {n > 10) {
+             ^
+..\src\Hello World.c:26:20: error: expected statement before ')' token
+   } else if {n > 10) {
+                    ^
+..\src\Hello World.c:28:5: error: expected '}' before 'else'
+   } else {
+     ^~~~
+..\src\Hello World.c:22:6: warning: unused variable 'array' [-Wunused-variable]
+  int array[] = {1,2,3,4,5,6,7,8,9,0,11,12,13,14,15,16,17,18,19,20};
+      ^~~~~
+00:14:54 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+00:15:17 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+00:15:23 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+00:15:49 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+00:16:04 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+00:16:14 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+00:16:31 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+00:16:59 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:31:33: error: 'n' undeclared (first use in this function)
+    printf("The number is %d\n", n);
+                                 ^
+..\src\Hello World.c:31:33: note: each undeclared identifier is reported only once for each function it appears in
+00:20:45 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+00:21:11 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'foo':
+..\src\Hello World.c:20:9: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [-Wint-conversion]
+  printf(bar * 2);
+         ^~~
+In file included from ..\src\Hello World.c:11:0:
+c:\mingw\include\stdio.h:454:38: note: expected 'const char *' but argument is of type 'int'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int printf (const char *, ...);
+                                      ^~~~~~
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+00:21:31 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+00:26:31 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+00:31:29 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'print_big':
+..\src\Hello World.c:28:12: warning: return makes integer from pointer without a cast [-Wint-conversion]
+   return x + "is big";
+          ~~^~~~~~~~~~
+..\src\Hello World.c:30:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+00:31:38 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'print_big':
+..\src\Hello World.c:28:12: warning: return makes integer from pointer without a cast [-Wint-conversion]
+   return x + "is big";
+          ~~^~~~~~~~~~
+..\src\Hello World.c:30:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+00:31:46 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:23:11: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  printf("%s", print_big(11));
+           ^
+..\src\Hello World.c: In function 'print_big':
+..\src\Hello World.c:28:12: warning: return makes integer from pointer without a cast [-Wint-conversion]
+   return x + "is big";
+          ~~^~~~~~~~~~
+..\src\Hello World.c:30:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+00:32:46 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+00:32:55 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+00:33:14 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:23:14: error: stray '\' in program
+  print_big(50\n);
+              ^
+..\src\Hello World.c:23:15: error: expected ')' before 'n'
+  print_big(50\n);
+               ^
+..\src\Hello World.c:24:14: error: stray '\' in program
+  print_big(40\n);
+              ^
+..\src\Hello World.c:24:15: error: expected ')' before 'n'
+  print_big(40\n);
+               ^
+00:34:03 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:24:12: warning: passing argument 1 of 'print_big' makes integer from pointer without a cast [-Wint-conversion]
+  print_big("\n");
+            ^~~~
+..\src\Hello World.c:20:6: note: expected 'int' but argument is of type 'char *'
+ void print_big(int x);
+      ^~~~~~~~~
+..\src\Hello World.c:26:12: warning: passing argument 1 of 'print_big' makes integer from pointer without a cast [-Wint-conversion]
+  print_big("\n");
+            ^~~~
+..\src\Hello World.c:20:6: note: expected 'int' but argument is of type 'char *'
+ void print_big(int x);
+      ^~~~~~~~~
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+00:34:18 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+10:00:52 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:24:2: warning: implicit declaration of function 'print' [-Wimplicit-function-declaration]
+  print("%d", runner());
+  ^~~~~
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+src\Hello World.o: In function `main':
+C:\Users\fongbill\Desktop\old desktop\Documents\9 Web Design\9 C\Eclipse IDE\Hello World\Debug/../src/Hello World.c:24: undefined reference to `print'
+C:\Users\fongbill\Desktop\old desktop\Documents\9 Web Design\9 C\Eclipse IDE\Hello World\Debug/../src/Hello World.c:25: undefined reference to `print'
+collect2.exe: error: ld returned 1 exit status
+10:01:10 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:27:2: warning: implicit declaration of function 'print' [-Wimplicit-function-declaration]
+  print("%d", runner());
+  ^~~~~
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+src\Hello World.o: In function `main':
+C:\Users\fongbill\Desktop\old desktop\Documents\9 Web Design\9 C\Eclipse IDE\Hello World\Debug/../src/Hello World.c:27: undefined reference to `print'
+C:\Users\fongbill\Desktop\old desktop\Documents\9 Web Design\9 C\Eclipse IDE\Hello World\Debug/../src/Hello World.c:28: undefined reference to `print'
+collect2.exe: error: ld returned 1 exit status
+10:01:27 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+Info: Nothing to build for Hello World
+10:05:12 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+10:05:45 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+10:07:37 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+10:11:42 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'sum':
+..\src\Hello World.c:21:17: error: expected '=', ',', ';', 'asm' or '__attribute__' before '+=' token
+  static int sum += num;
+                 ^~
+..\src\Hello World.c:21:17: error: expected expression before '+=' token
+..\src\Hello World.c:22:9: warning: return makes integer from pointer without a cast [-Wint-conversion]
+  return sum;
+         ^~~
+10:11:59 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+10:31:21 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c:23:8: error: expected declaration specifiers or '...' before string constant
+ printf("The value a is %d\n", a);
+        ^~~~~~~~~~~~~~~~~~~~~
+..\src\Hello World.c:23:31: error: expected declaration specifiers or '...' before 'a'
+ printf("The value a is %d\n", a);
+                               ^
+..\src\Hello World.c:24:8: error: expected declaration specifiers or '...' before string constant
+ printf("The value of a is also %d\n", *pointer_to_a);
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\Hello World.c:24:39: error: expected declaration specifiers or '...' before '*' token
+ printf("The value of a is also %d\n", *pointer_to_a);
+                                       ^
+10:31:36 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+10:34:00 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+10:35:20 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+10:35:57 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+10:38:35 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+10:55:43 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:25:1: warning: unnamed struct/union that defines no instances
+ };
+ ^
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+10:56:24 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:25:3: warning: typedef 'point' locally defined but not used [-Wunused-local-typedefs]
+ } point;
+   ^~~~~
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+10:56:45 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+10:56:54 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+10:57:12 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c:26:2: error: expected '=', ',', ';', 'asm' or '__attribute__' before '.' token
+ p.x = 1;
+  ^
+..\src\Hello World.c:27:2: error: expected '=', ',', ';', 'asm' or '__attribute__' before '.' token
+ p.x = 2;
+  ^
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:30:8: error: incompatible type for argument 1 of 'printf'
+ printf(p);
+        ^
+In file included from ..\src\Hello World.c:11:0:
+c:\mingw\include\stdio.h:454:38: note: expected 'const char *' but argument is of type 'point {aka struct <anonymous>}'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int printf (const char *, ...);
+                                      ^~~~~~
+10:57:37 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c:25:8: error: expected '=', ',', ';', 'asm' or '__attribute__' before '.' token
+ point p.x = 1;
+        ^
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:29:8: error: 'p' undeclared (first use in this function)
+ printf(p);
+        ^
+..\src\Hello World.c:29:8: note: each undeclared identifier is reported only once for each function it appears in
+10:58:40 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c:26:8: error: expected ':', ',', ';', '}' or '__attribute__' before '=' token
+  int x = 10;
+        ^
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:31:8: error: 'point' undeclared (first use in this function)
+ printf(point);
+        ^~~~~
+..\src\Hello World.c:31:8: note: each undeclared identifier is reported only once for each function it appears in
+10:58:56 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c:25:16: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ struct point p {
+                ^
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:31:8: error: 'p' undeclared (first use in this function)
+ printf(p);
+        ^
+..\src\Hello World.c:31:8: note: each undeclared identifier is reported only once for each function it appears in
+10:59:17 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c:26:8: error: expected ':', ',', ';', '}' or '__attribute__' before '=' token
+  int x = 10;
+        ^
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:31:8: error: 'point' undeclared (first use in this function)
+ printf(point);
+        ^~~~~
+..\src\Hello World.c:31:8: note: each undeclared identifier is reported only once for each function it appears in
+10:59:39 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:34:8: error: 'point' undeclared (first use in this function)
+ printf(point);
+        ^~~~~
+..\src\Hello World.c:34:8: note: each undeclared identifier is reported only once for each function it appears in
+11:00:27 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'draw':
+..\src\Hello World.c:34:9: error: 'point' undeclared (first use in this function)
+  printf(point);
+         ^~~~~
+..\src\Hello World.c:34:9: note: each undeclared identifier is reported only once for each function it appears in
+..\src\Hello World.c:35:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+11:01:20 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c:26:6: error: expected '=', ',', ';', 'asm' or '__attribute__' before '.' token
+ int p.x = 10;
+      ^
+..\src\Hello World.c:27:6: error: expected '=', ',', ';', 'asm' or '__attribute__' before '.' token
+ int p.y = 15;
+      ^
+..\src\Hello World.c: In function 'draw':
+..\src\Hello World.c:30:2: error: 'p' has an incomplete type 'struct point'
+  printf(p);
+  ^~~~~~
+..\src\Hello World.c: At top level:
+..\src\Hello World.c:25:14: error: storage size of 'p' isn't known
+ struct point p;
+              ^
+..\src\Hello World.c: In function 'draw':
+..\src\Hello World.c:31:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+11:01:35 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'draw':
+..\src\Hello World.c:27:9: error: 'p' undeclared (first use in this function)
+  printf(p);
+         ^
+..\src\Hello World.c:27:9: note: each undeclared identifier is reported only once for each function it appears in
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:30:15: error: storage size of 'p' isn't known
+  struct point p;
+               ^
+..\src\Hello World.c:31:7: error: expected '=', ',', ';', 'asm' or '__attribute__' before '.' token
+  int p.x = 10;
+       ^
+..\src\Hello World.c:31:7: error: expected expression before '.' token
+..\src\Hello World.c:32:7: error: expected '=', ',', ';', 'asm' or '__attribute__' before '.' token
+  int p.y = 15;
+       ^
+..\src\Hello World.c:32:7: error: expected expression before '.' token
+..\src\Hello World.c:30:15: warning: unused variable 'p' [-Wunused-variable]
+  struct point p;
+               ^
+..\src\Hello World.c: In function 'draw':
+..\src\Hello World.c:28:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+11:02:02 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'draw':
+..\src\Hello World.c:27:9: error: 'p' undeclared (first use in this function)
+  printf(p);
+         ^
+..\src\Hello World.c:27:9: note: each undeclared identifier is reported only once for each function it appears in
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:31:15: error: storage size of 'p' isn't known
+  struct point p;
+               ^
+..\src\Hello World.c:32:7: error: expected '=', ',', ';', 'asm' or '__attribute__' before '.' token
+  int p.x = 10;
+       ^
+..\src\Hello World.c:32:7: error: expected expression before '.' token
+..\src\Hello World.c:33:7: error: expected '=', ',', ';', 'asm' or '__attribute__' before '.' token
+  int p.y = 15;
+       ^
+..\src\Hello World.c:33:7: error: expected expression before '.' token
+..\src\Hello World.c:31:15: warning: unused variable 'p' [-Wunused-variable]
+  struct point p;
+               ^
+11:02:15 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'draw':
+..\src\Hello World.c:26:9: error: 'p' undeclared (first use in this function)
+  printf(p);
+         ^
+..\src\Hello World.c:26:9: note: each undeclared identifier is reported only once for each function it appears in
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:29:15: error: storage size of 'p' isn't known
+  struct point p;
+               ^
+..\src\Hello World.c:30:7: error: expected '=', ',', ';', 'asm' or '__attribute__' before '.' token
+  int p.x = 10;
+       ^
+..\src\Hello World.c:30:7: error: expected expression before '.' token
+..\src\Hello World.c:31:7: error: expected '=', ',', ';', 'asm' or '__attribute__' before '.' token
+  int p.y = 15;
+       ^
+..\src\Hello World.c:31:7: error: expected expression before '.' token
+..\src\Hello World.c:29:15: warning: unused variable 'p' [-Wunused-variable]
+  struct point p;
+               ^
+11:15:02 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'draw':
+..\src\Hello World.c:26:9: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [-Wint-conversion]
+  printf(p);
+         ^
+In file included from ..\src\Hello World.c:11:0:
+c:\mingw\include\stdio.h:454:38: note: expected 'const char *' but argument is of type 'int'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int printf (const char *, ...);
+                                      ^~~~~~
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:29:15: error: storage size of 'p' isn't known
+  struct point p;
+               ^
+..\src\Hello World.c:30:7: error: expected '=', ',', ';', 'asm' or '__attribute__' before '.' token
+  int p.x = 10;
+       ^
+..\src\Hello World.c:30:7: error: expected expression before '.' token
+..\src\Hello World.c:31:7: error: expected '=', ',', ';', 'asm' or '__attribute__' before '.' token
+  int p.y = 15;
+       ^
+..\src\Hello World.c:31:7: error: expected expression before '.' token
+..\src\Hello World.c:29:15: warning: unused variable 'p' [-Wunused-variable]
+  struct point p;
+               ^
+11:15:52 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'draw':
+..\src\Hello World.c:26:9: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [-Wint-conversion]
+  printf(p);
+         ^
+In file included from ..\src\Hello World.c:11:0:
+c:\mingw\include\stdio.h:454:38: note: expected 'const char *' but argument is of type 'int'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int printf (const char *, ...);
+                                      ^~~~~~
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:29:15: error: storage size of 'p' isn't known
+  struct point p;
+               ^
+..\src\Hello World.c:29:15: warning: unused variable 'p' [-Wunused-variable]
+11:16:41 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'draw':
+..\src\Hello World.c:26:9: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [-Wint-conversion]
+  printf(x, y);
+         ^
+In file included from ..\src\Hello World.c:11:0:
+c:\mingw\include\stdio.h:454:38: note: expected 'const char *' but argument is of type 'int'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int printf (const char *, ...);
+                                      ^~~~~~
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:29:15: error: storage size of 'p' isn't known
+  struct point p;
+               ^
+..\src\Hello World.c:32:2: error: too few arguments to function 'draw'
+  draw(p);
+  ^~~~
+..\src\Hello World.c:25:6: note: declared here
+ void draw(int x, int y) {
+      ^~~~
+..\src\Hello World.c:29:15: warning: unused variable 'p' [-Wunused-variable]
+  struct point p;
+               ^
+11:16:46 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'draw':
+..\src\Hello World.c:26:9: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [-Wint-conversion]
+  printf(x);
+         ^
+In file included from ..\src\Hello World.c:11:0:
+c:\mingw\include\stdio.h:454:38: note: expected 'const char *' but argument is of type 'int'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int printf (const char *, ...);
+                                      ^~~~~~
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:29:15: error: storage size of 'p' isn't known
+  struct point p;
+               ^
+..\src\Hello World.c:32:2: error: too few arguments to function 'draw'
+  draw(p);
+  ^~~~
+..\src\Hello World.c:25:6: note: declared here
+ void draw(int x, int y) {
+      ^~~~
+..\src\Hello World.c:29:15: warning: unused variable 'p' [-Wunused-variable]
+  struct point p;
+               ^
+11:16:51 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'draw':
+..\src\Hello World.c:26:9: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [-Wint-conversion]
+  printf(x);
+         ^
+In file included from ..\src\Hello World.c:11:0:
+c:\mingw\include\stdio.h:454:38: note: expected 'const char *' but argument is of type 'int'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int printf (const char *, ...);
+                                      ^~~~~~
+..\src\Hello World.c:27:9: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [-Wint-conversion]
+  printf(y);
+         ^
+In file included from ..\src\Hello World.c:11:0:
+c:\mingw\include\stdio.h:454:38: note: expected 'const char *' but argument is of type 'int'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int printf (const char *, ...);
+                                      ^~~~~~
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:30:15: error: storage size of 'p' isn't known
+  struct point p;
+               ^
+..\src\Hello World.c:33:2: error: too few arguments to function 'draw'
+  draw(p);
+  ^~~~
+..\src\Hello World.c:25:6: note: declared here
+ void draw(int x, int y) {
+      ^~~~
+..\src\Hello World.c:30:15: warning: unused variable 'p' [-Wunused-variable]
+  struct point p;
+               ^
+11:30:52 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+11:34:19 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'draw':
+..\src\Hello World.c:31:6: warning: type of 'point' defaults to 'int' [-Wimplicit-int]
+ void draw(point) {
+      ^~~~
+..\src\Hello World.c:32:9: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [-Wint-conversion]
+  printf(point);
+         ^~~~~
+In file included from ..\src\Hello World.c:11:0:
+c:\mingw\include\stdio.h:454:38: note: expected 'const char *' but argument is of type 'int'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int printf (const char *, ...);
+                                      ^~~~~~
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+11:34:48 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'draw':
+..\src\Hello World.c:32:9: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [-Wint-conversion]
+  printf(point1);
+         ^~~~~~
+In file included from ..\src\Hello World.c:11:0:
+c:\mingw\include\stdio.h:454:38: note: expected 'const char *' but argument is of type 'int'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int printf (const char *, ...);
+                                      ^~~~~~
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:39:7: error: incompatible type for argument 1 of 'draw'
+  draw(p);
+       ^
+..\src\Hello World.c:31:6: note: expected 'int' but argument is of type 'struct point'
+ void draw(int point1, int point2) {
+      ^~~~
+..\src\Hello World.c:39:2: error: too few arguments to function 'draw'
+  draw(p);
+  ^~~~
+..\src\Hello World.c:31:6: note: declared here
+ void draw(int point1, int point2) {
+      ^~~~
+11:35:25 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'draw':
+..\src\Hello World.c:31:18: error: parameter name omitted
+ void draw(struct point) {
+                  ^~~~~
+..\src\Hello World.c:32:9: error: 'point' undeclared (first use in this function)
+  printf(point);
+         ^~~~~
+..\src\Hello World.c:32:9: note: each undeclared identifier is reported only once for each function it appears in
+11:35:42 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c:31:18: warning: 'struct temp' declared inside parameter list will not be visible outside of this definition or declaration
+ void draw(struct temp) {
+                  ^~~~
+..\src\Hello World.c:31:18: error: parameter 1 has incomplete type
+..\src\Hello World.c: In function 'draw':
+..\src\Hello World.c:31:18: error: parameter name omitted
+..\src\Hello World.c:32:9: error: 'temp' undeclared (first use in this function)
+  printf(temp);
+         ^~~~
+..\src\Hello World.c:32:9: note: each undeclared identifier is reported only once for each function it appears in
+11:35:57 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'draw':
+..\src\Hello World.c:32:9: error: incompatible type for argument 1 of 'printf'
+  printf(temp);
+         ^~~~
+In file included from ..\src\Hello World.c:11:0:
+c:\mingw\include\stdio.h:454:38: note: expected 'const char *' but argument is of type 'struct point'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int printf (const char *, ...);
+                                      ^~~~~~
+11:36:17 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'draw':
+..\src\Hello World.c:32:9: warning: 'return' with a value, in function returning void
+  return temp;
+         ^~~~
+..\src\Hello World.c:31:6: note: declared here
+ void draw(struct point temp) {
+      ^~~~
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+11:36:38 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'draw':
+..\src\Hello World.c:32:9: error: incompatible types when returning type 'struct point' but 'int' was expected
+  return temp;
+         ^~~~
+..\src\Hello World.c:33:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+12:31:19 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:40:2: error: expected ';' before 'mycar'
+  mycar.model = 2007;
+  ^~~~~
+..\src\Hello World.c:38:10: warning: variable 'mycar' set but not used [-Wunused-but-set-variable]
+  vehicle mycar;
+          ^~~~~
+12:31:42 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:38:10: warning: variable 'mycar' set but not used [-Wunused-but-set-variable]
+  vehicle mycar;
+          ^~~~~
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+12:42:44 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+12:45:27 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:45:19: error: storage size of 'billy' isn't known
+     struct person billy;
+                   ^~~~~
+..\src\Hello World.c:45:19: warning: unused variable 'billy' [-Wunused-variable]
+12:45:38 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:46:5: error: invalid use of undefined type 'struct person'
+     billy.name = "Billy";
+     ^~~~~
+..\src\Hello World.c:47:5: error: invalid use of undefined type 'struct person'
+     billy.age = 23;
+     ^~~~~
+..\src\Hello World.c:48:5: error: invalid use of undefined type 'struct person'
+     printf("%s is %d years old.", billy.name, billy.age);
+     ^~~~~~
+..\src\Hello World.c:48:5: error: invalid use of undefined type 'struct person'
+..\src\Hello World.c: At top level:
+..\src\Hello World.c:34:15: error: storage size of 'billy' isn't known
+ struct person billy;
+               ^~~~~
+12:46:11 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:49:5: error: 'billy' undeclared (first use in this function)
+     billy.name = "Billy";
+     ^~~~~
+..\src\Hello World.c:49:5: note: each undeclared identifier is reported only once for each function it appears in
+12:46:32 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:48:5: error: unknown type name 'person'
+     person billy;
+     ^~~~~~
+..\src\Hello World.c:48:5: note: use 'struct' keyword to refer to the type
+..\src\Hello World.c:49:10: error: request for member 'name' in something not a structure or union
+     billy.name = "Billy";
+          ^
+..\src\Hello World.c:50:10: error: request for member 'age' in something not a structure or union
+     billy.age = 23;
+          ^
+..\src\Hello World.c:51:40: error: request for member 'name' in something not a structure or union
+     printf("%s is %d years old.", billy.name, billy.age);
+                                        ^
+..\src\Hello World.c:51:52: error: request for member 'age' in something not a structure or union
+     printf("%s is %d years old.", billy.name, billy.age);
+                                                    ^
+..\src\Hello World.c:48:12: warning: variable 'billy' set but not used [-Wunused-but-set-variable]
+     person billy;
+            ^~~~~
+12:49:01 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c:34:20: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ struct person billy{
+                    ^
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:49:5: error: 'billy' undeclared (first use in this function)
+     billy.name = "Billy";
+     ^~~~~
+..\src\Hello World.c:49:5: note: each undeclared identifier is reported only once for each function it appears in
+12:49:42 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:46:5: error: invalid use of undefined type 'struct person'
+     billy.name = "Billy";
+     ^~~~~
+..\src\Hello World.c:47:5: error: invalid use of undefined type 'struct person'
+     billy.age = 23;
+     ^~~~~
+..\src\Hello World.c:48:5: error: 'billy' has an incomplete type 'struct person'
+     printf("%s is %d years old.", billy);
+     ^~~~~~
+..\src\Hello World.c: At top level:
+..\src\Hello World.c:34:15: error: storage size of 'billy' isn't known
+ struct person billy;
+               ^~~~~
+12:51:46 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:49:5: error: 'billy' undeclared (first use in this function)
+     billy.name = "Billy";
+     ^~~~~
+..\src\Hello World.c:49:5: note: each undeclared identifier is reported only once for each function it appears in
+12:52:01 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:49:16: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+     billy.name = "Billy";
+                ^
+..\src\Hello World.c:51:14: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'struct person' [-Wformat=]
+     printf("%s is %d years old.", billy);
+              ^
+..\src\Hello World.c:51:20: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+     printf("%s is %d years old.", billy);
+                    ^
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+12:52:11 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:51:14: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'struct person' [-Wformat=]
+     printf("%s is %d years old.", billy);
+              ^
+..\src\Hello World.c:51:20: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+     printf("%s is %d years old.", billy);
+                    ^
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+12:54:35 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+12:55:32 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:42:14: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'struct person' [-Wformat=]
+     printf("%s is %d years old.", billy);
+              ^
+..\src\Hello World.c:42:20: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+     printf("%s is %d years old.", billy);
+                    ^
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+12:55:40 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+12:55:55 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:42:53: error: 'name' undeclared (first use in this function)
+     printf("%s is %d years old.", billy.age ,billy, name);
+                                                     ^~~~
+..\src\Hello World.c:42:53: note: each undeclared identifier is reported only once for each function it appears in
+12:56:11 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:43:53: error: 'name' undeclared (first use in this function)
+     printf("%s is %d years old.", billy.age ,billy, name);
+                                                     ^~~~
+..\src\Hello World.c:43:53: note: each undeclared identifier is reported only once for each function it appears in
+12:56:20 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:43:14: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+     printf("%s is %d years old.", billy.age ,billy.name);
+              ^
+..\src\Hello World.c:43:20: warning: format '%d' expects argument of type 'int', but argument 3 has type 'char *' [-Wformat=]
+     printf("%s is %d years old.", billy.age ,billy.name);
+                    ^
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+12:56:28 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:43:14: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+     printf("%s is %d years old.", billy.age ,billy.age);
+              ^
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+12:56:34 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+Info: Nothing to build for Hello World
+Info: Nothing to build for Hello World
+Info: Nothing to build for Hello World
+Info: Nothing to build for Hello World
+13:15:13 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:21:2: warning: 'n' is used uninitialized in this function [-Wuninitialized]
+  printf("Before: %d\n", n);
+  ^~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Hello World.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:15:29 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c:15:24: error: storage class specified for parameter 'n'
+ void addone(static int n) {
+                        ^
+13:16:02 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'addone':
+..\src\Hello World.c:16:13: error: 'n' redeclared as different kind of symbol
+  static int n;
+             ^
+..\src\Hello World.c:15:17: note: previous definition of 'n' was here
+ void addone(int n) {
+                 ^
+13:16:25 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'addone':
+..\src\Hello World.c:16:13: warning: unused variable 'n2' [-Wunused-variable]
+  static int n2;
+             ^~
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:21:25: error: 'n2' undeclared (first use in this function)
+  printf("Before: %d\n", n2);
+                         ^~
+..\src\Hello World.c:21:25: note: each undeclared identifier is reported only once for each function it appears in
+..\src\Hello World.c:22:9: error: 'n' undeclared (first use in this function)
+  addone(n);
+         ^
+At top level:
+..\src\Hello World.c:16:13: warning: 'n2' defined but not used [-Wunused-variable]
+  static int n2;
+             ^~
+13:16:58 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:21:2: warning: 'n' is used uninitialized in this function [-Wuninitialized]
+  printf("Before: %d\n", n);
+  ^~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Hello World.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:17:32 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c:15:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ main() {
+ ^~~~
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Hello World.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:17:41 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Hello World.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:17:51 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Hello World.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:18:26 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Hello World.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:18:53 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Hello World.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:42:07 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Hello World.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:42:19 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:42:14: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'struct person' [-Wformat=]
+     printf("%s is %d years old.", billy);
+              ^
+..\src\Hello World.c:42:20: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+     printf("%s is %d years old.", billy);
+                    ^
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Hello World.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:42:29 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:42:14: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'struct person' [-Wformat=]
+     printf("%s is %d years old.", billy);
+              ^
+..\src\Hello World.c:42:20: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+     printf("%s is %d years old.", billy);
+                    ^
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Hello World.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:42:40 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Hello World.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:47:23 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+14:47:45 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:44:1: error: expected ';' before '}' token
+ }
+ ^
+14:47:49 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+14:47:59 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+14:48:04 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+14:48:32 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+14:49:28 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:31:2: warning: 'n' is used uninitialized in this function [-Wuninitialized]
+  printf("Before %d\n", n);
+  ^~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+14:49:45 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+14:50:14 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'addone':
+..\src\Hello World.c:26:23: error: initializer element is not constant
+  static int globalN = n++;
+                       ^
+..\src\Hello World.c:26:13: warning: unused variable 'globalN' [-Wunused-variable]
+  static int globalN = n++;
+             ^~~~~~~
+At top level:
+..\src\Hello World.c:26:13: warning: 'globalN' defined but not used [-Wunused-variable]
+14:50:42 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'addone':
+..\src\Hello World.c:27:2: error: 'global' undeclared (first use in this function)
+  global = n + 1;
+  ^~~~~~
+..\src\Hello World.c:27:2: note: each undeclared identifier is reported only once for each function it appears in
+..\src\Hello World.c:26:13: warning: unused variable 'globalN' [-Wunused-variable]
+  static int globalN;
+             ^~~~~~~
+At top level:
+..\src\Hello World.c:26:13: warning: 'globalN' defined but not used [-Wunused-variable]
+14:50:52 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'addone':
+..\src\Hello World.c:27:2: error: 'global' undeclared (first use in this function)
+  global = n + 1;
+  ^~~~~~
+..\src\Hello World.c:27:2: note: each undeclared identifier is reported only once for each function it appears in
+..\src\Hello World.c:26:13: warning: unused variable 'globalN' [-Wunused-variable]
+  static int globalN;
+             ^~~~~~~
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:32:24: error: 'globalN' undeclared (first use in this function)
+  printf("Before %d\n", globalN);
+                        ^~~~~~~
+At top level:
+..\src\Hello World.c:26:13: warning: 'globalN' defined but not used [-Wunused-variable]
+  static int globalN;
+             ^~~~~~~
+14:51:13 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'addone':
+..\src\Hello World.c:26:13: warning: variable 'globalN' set but not used [-Wunused-but-set-variable]
+  static int globalN;
+             ^~~~~~~
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:32:24: error: 'globalN' undeclared (first use in this function)
+  printf("Before %d\n", globalN);
+                        ^~~~~~~
+..\src\Hello World.c:32:24: note: each undeclared identifier is reported only once for each function it appears in
+14:52:25 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:33:24: error: 'globalN' undeclared (first use in this function)
+  printf("Before %d\n", globalN);
+                        ^~~~~~~
+..\src\Hello World.c:33:24: note: each undeclared identifier is reported only once for each function it appears in
+14:52:51 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+14:53:40 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:32:9: warning: passing argument 1 of 'addone' makes pointer from integer without a cast [-Wint-conversion]
+  addone(n);
+         ^
+..\src\Hello World.c:25:5: note: expected 'int *' but argument is of type 'int'
+ int addone(int * n) {
+     ^~~~~~
+..\src\Hello World.c: In function 'addone':
+..\src\Hello World.c:27:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+14:53:55 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:32:9: warning: passing argument 1 of 'addone' makes pointer from integer without a cast [-Wint-conversion]
+  addone(n);
+         ^
+..\src\Hello World.c:25:5: note: expected 'int *' but argument is of type 'int'
+ int addone(int * n) {
+     ^~~~~~
+..\src\Hello World.c: In function 'addone':
+..\src\Hello World.c:27:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:31:2: warning: 'n' is used uninitialized in this function [-Wuninitialized]
+  printf("Before %d\n", n);
+  ^~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+14:54:05 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'addone':
+..\src\Hello World.c:27:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:31:2: warning: 'n' is used uninitialized in this function [-Wuninitialized]
+  printf("Before %d\n", n);
+  ^~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+15:09:51 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+15:10:03 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+15:10:56 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+src\Hello World.o: In function `main':
+C:\Users\fongbill\Desktop\old desktop\Documents\9 Web Design\9 C\Eclipse IDE\Hello World\Debug/../src/Hello World.c:41: undefined reference to `birthday'
+collect2.exe: error: ld returned 1 exit status
+15:11:43 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+15:12:14 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+15:12:30 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+15:25:50 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+15:40:13 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+18:50:00 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:36:14: warning: 'mypoint' is used uninitialized in this function [-Wuninitialized]
+   mypoint->x = 10;
+   ~~~~~~~~~~~^~~~
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+18:50:22 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+18:50:38 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+18:51:16 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:40:12: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'person {aka struct <anonymous>}' [-Wformat=]
+   printf("%x is the memory address of john", john);
+            ^
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+18:51:33 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:40:12: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'char *' [-Wformat=]
+   printf("%x is the memory address of john", john.name);
+            ^
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+22:39:09 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+22:39:19 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:40:12: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'char *' [-Wformat=]
+   printf("%x is the memory address of john", john.name);
+            ^
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+22:39:26 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+22:39:55 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:43:41: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'int' [-Wformat=]
+   printf("The memory address of age is %p", age);
+                                         ^
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+22:40:02 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:43:41: warning: format '%p' expects argument of type 'void *', but argument 2 has type 'int' [-Wformat=]
+   printf("The memory address of age is %p", age);
+                                         ^
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+23:34:26 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+23:34:56 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Hello World.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+23:35:11 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Hello World.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+23:35:31 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Hello World.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+00:11:26 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Hello World.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+00:37:15 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:33:26: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+  struct student student1 {
+                          ^
+..\src\Hello World.c:34:10: error: 'student1' undeclared (first use in this function)
+   strcpy(student1.name, "Billy");
+          ^~~~~~~~
+..\src\Hello World.c:34:10: note: each undeclared identifier is reported only once for each function it appears in
+..\src\Hello World.c:35:3: error: 'age' undeclared (first use in this function)
+   age = 23;
+   ^~~
+00:38:29 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Hello World.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+19:20:41 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:10:12: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+     head = malloc(sizeof(node_t));
+            ^~~~~~
+..\src\Hello World.c:10:12: warning: incompatible implicit declaration of built-in function 'malloc'
+..\src\Hello World.c:10:12: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Hello World.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+18:59:49 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Hello World.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+19:00:53 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Hello World.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+19:00:56 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -o "Hello World.exe" "src\\Hello World.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Hello World.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+19:04:17 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:14:2: error: unknown type name 'operatorUnion'
+  operatorUnion op;
+  ^~~~~~~~~~~~~
+..\src\Hello World.c:14:2: note: use 'struct' keyword to refer to the type
+..\src\Hello World.c:14:16: warning: unused variable 'op' [-Wunused-variable]
+  operatorUnion op;
+                ^~
+19:16:05 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:14:18: error: storage size of 'op' isn't known
+  struct operator op;
+                  ^~
+..\src\Hello World.c:14:18: warning: unused variable 'op' [-Wunused-variable]

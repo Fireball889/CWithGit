@@ -1,0 +1,11 @@
+19:16:05 **** Incremental Build of configuration Debug for project Hello World ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Hello World.o" "..\\src\\Hello World.c" 
+..\src\Hello World.c: In function 'main':
+..\src\Hello World.c:14:18: error: storage size of 'op' isn't known
+  struct operator op;
+                  ^~
+..\src\Hello World.c:14:18: warning: unused variable 'op' [-Wunused-variable]
+
+19:16:06 Build Failed. 1 errors, 1 warnings. (took 751ms)
+

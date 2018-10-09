@@ -1,0 +1,9 @@
+22:35:54 **** Incremental Build of configuration Debug for project If Statement (Guess Number Game) ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Enterprise Vault\EVClient\;C:\Users\fongbill\AppData\Local\Microsoft\WindowsApps]
+
+22:35:54 Build Failed. 1 errors, 0 warnings. (took 163ms)
+

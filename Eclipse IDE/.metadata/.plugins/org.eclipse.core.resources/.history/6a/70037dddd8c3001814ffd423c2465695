@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+struct operatorUnion {
+	int type;
+	union {
+		int inNum;
+		float floatNum;
+		double doubleNum;
+	} types;
+};
+
+int main() {
+	operatorUnion op;
+}

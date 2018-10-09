@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+struct operatorUnion {
+	int type;
+	union {
+		int inNum;
+		float floatNum;
+		double doubleNum;
+	}; //no name
+};
+
+int main() {
+	struct operator op;
+	op.type = 0; // int
+	// intNum is part of the union, but since it's not named you access it directly off the struct itself
+	op.intNum = 352;
+}
