@@ -1,0 +1,109 @@
+<html>
+
+<head>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+		<div class="menu" id="menu-top">
+			<h1>Javascript Journal</h2>
+		</div>
+		<div class="main-divider">
+			<div class="menu" id="menu-left">
+				<div class="content-link" id="content-link-getElementById"><a class="anchor-content-link" href="#getElementById">getElementById</a></div>
+				<div class="content-link" id="content-link-2"><a class="anchor-content-link" href="#javascriptOutput">Javascript Output</a></div>
+				<div class="content-link" id="content-link-3"></div>
+				<div class="content-link" id="content-link-4"></div>
+				<div class="content-link" id="content-link-5"></div>
+				<div class="content-link" id="content-link-6"></div>
+				<div class="content-link" id="content-link-7"></div>
+				<div class="content-link" id="content-link-8"></div>
+				<div class="content-link" id="content-link-9"></div>
+				<div class="content-link" id="content-link-10"></div>
+			</div>
+			<div class="flexbox-container" id="main-container">
+				<div class="div-topic" id="getElementById">
+					<h2>document.getElementById</h2>
+					<p>The script <code>document.getElementById</code> helps locate an element using its id, and is able to change the content or attribute of said targeted element.</p>
+					<div class="div-sample">
+							<button type="button" onclick="showDate()">Click To Show Date & Time</button>
+							<button type="button" onclick="showText()">Click to Show Text</button>
+							<br>
+							<button type="button" onclick="document.getElementById('showTextDemo').style.fontSize = '50px';">Click To Change Font Size To 50px</button>
+							<button type="button" onclick="document.getElementById('showTextDemo').style.display = 'none';">Click To Hide Text</button>
+							<button type="button" onclick="document.getElementById('showTextDemo').style.display = 'block';">Click To Unhide Text</button>
+							<p id="showDateDemo"></p>
+							<p id="showTextDemo"></p>
+					</div>
+					<p>Scripts can be placed in <code>head</code> or <code>body</code> of the HTML, placing it in <code>head</code> will have the benefit of loading the HTML elements first, which would make the webpage appear to load faster.</p>
+					<p>Scripts can also be placed in external fileor URL using the by: <code>&lt;script src="myScript.js"&gt;&lt;/script&gt;</code> OR <code>&lt;script src="https://www.w3schools.com/js/myScript1.js"&gt;&lt;/script&gt;</code></p>
+				</div>
+				<div class="div-topic" id="javascriptOutput">
+					<h2>Javascript Output</h2>
+					<h3>Display with <code>innerHTML</code></h3>
+					<p>Demonstrated above.</p>
+					<h3>Display with <code>document.write()</code></h3>
+						<div class="div-sample" id="div-sample-documentWrite">
+							<button type="button" onclick="document.write('Document.write has been triggered')">Click to Trigger Document.write</button>
+						</div>
+					<h3>Display with <code>window.alert()</code></h3>
+						<div class="div-sample" id="div-sample-alert">
+							<button type="button" onclick="window.alert('This is an alert window')">Press For Window Alert</button>
+						</div>
+					<h3>Display with <code>console.log()</code></h3>
+						<div class="div-sample" id="div-sameple-alert">
+							<button type="button" onclick="console.log('Console.log button has been clicked on')">Click to trigger console.log</button>
+						</div>
+					</div>
+					<div class="div-topic" id="div-topic-syntax">
+						<h2>Javascript Syntax</h2>
+						<p>Semicolons are not required, however it is good practice to have them at the end of each statement.</p>
+						<p>Javascript ignores spaces, it is good practice to have a space before and after operations (+ - * /)</p>
+						<p>Each code line should not be longer than 80 characters in order to maintain its readibility. If code lines exceed 80 characters, it is common to include a line break after an operator</p>
+						<p>"John" + " " + "Doe" outputs "John Doe"</p>
+						<p>Comments can be added using "//" or "/*" + "*/"</p>
+						<p>Hyphens are not allowed in JavaScript, as it is reserved for subtractions.</p>
+						<p>In JavaScript, the equal sign (=) is an "assignment" operator, where as double equal to is (==)</p>
+						<h2>Variables</h2>
+						<p>variables can be assigned using var</p>
+						<div class="div-sample" id="div-sample-variable">
+							<p id="div-sample-variable-demo"></p>
+							<button type="button" onclick="carName()">Click To Print Car Name</button>
+							<script>
+								var carName = 'Volvo';
+								function carName() {
+									document.getElementById('div-sample-variable-demo').innerHML = carName;
+								}
+							</script>
+						</div>
+
+						<h3>Keywords</h3>
+						<ul>
+							<li><code>break</code>: Termates a switch or a loop</li>
+							<li><code>continue</code>: Jumps out of a loop and starts at the top</li>
+							<li><code>debugger</code>: Stops the execution of JavaScript, and calls (if available) the debugging function</li>
+							<li><code>do ... while</code>: Executes a block of statements, and repeats the block, while a condition is true</li>
+							<li><code>for</code>: Marks a block of statements to be executed, as long as condition is true.</li>
+							<li><code>function</code>: Declares a function</li>
+							<li><code>if ... else</code>: Marks a block of statements to be executed, depending on a condition</li>
+							<li><code>return</code>: Exits a function</li>
+							<li><code>switch</code>: marks a block of statement to be executed, depending on different cases</li>
+							<li><code>try ... catch</code>: Implements error handling to a block of statement</li>
+							<li><code>var</code>: Declares a variable</li>
+						</ul>
+					</div>
+			</div>
+	</div>
+<script>
+	function showDate() {
+		document.getElementById('showDateDemo').innerHTML = Date()
+	}
+	function showText() {
+		document.getElementById('showTextDemo').innerHTML = 'This is text'
+	}
+</script>
+
+</body>
+
+
+</html>
