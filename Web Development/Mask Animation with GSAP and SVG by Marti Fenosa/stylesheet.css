@@ -1,0 +1,29 @@
+<!DOCTYPE css>
+
+  body {
+    background-color: black;
+  }
+
+  button {
+    width: auto;
+    height: 20px;
+    background-color: pink;
+  }
+
+  .nav-bar {
+    background-color: red;
+    display: fixed;
+    width: 300px;
+    height: 100%;
+    margin: 0px;
+
+
+  }
+
+  .main-doc {
+    background-color: green;
+    position: absolute;
+    margin-left: 310px;
+    margin-top: 0px;
+    width: 300px;
+  }
