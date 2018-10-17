@@ -1,29 +1,57 @@
 <!DOCTYPE css>
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
 
   body {
-    background-color: black;
-  }
-
-  button {
-    width: auto;
-    height: 20px;
-    background-color: pink;
-  }
-
-  .nav-bar {
-    background-color: red;
-    display: fixed;
-    width: 300px;
-    height: 100%;
+    height: 100vh;
     margin: 0px;
-
-
   }
 
-  .main-doc {
-    background-color: green;
+  div {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+  }
+
+  .div-0 {
+    height: 500px;
+    width: 500px;
     position: absolute;
-    margin-left: 310px;
-    margin-top: 0px;
-    width: 300px;
+    top: 5000px;
+  }
+
+  .navbar {
+    background-color: hsl(150, 10%, 90%);
+    position: fixed;
+    height: 90vh;
+  }
+
+  .main {
+    background-color: hsl(200, 10%, 50%);
+    width: 88vw;
+    position: absolute;
+    left: 110px;
+  }
+
+
+  @media (max-width: 480) {
+    .navbar {
+      background-color: red;
+    }
+  }
+  @media (min-width: 481) and (max-width: 768px) {
+    .navbar {
+      background-color: green;
+    }
+  }
+  @media (min-width: 769) {
+    .navbar {
+      background-color: blue;
+    }
+  }
+
   }
