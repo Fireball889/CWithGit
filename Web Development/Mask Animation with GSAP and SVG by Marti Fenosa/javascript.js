@@ -11,3 +11,5 @@ function readScreenHeight() {
   console.log('Screen Height: ' + screen.height);
   document.getElementById('screenHeightOutput').value = 'Screen height: ' + screen.height + 'px';
 }
+
+//comment added 
