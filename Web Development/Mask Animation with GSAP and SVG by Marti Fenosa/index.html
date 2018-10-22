@@ -1,0 +1,719 @@
+<html>
+<head>
+	<link rel="stylesheet" href="stylesheet.css">
+</head>
+	<nav id="nav-bar">
+		<header>JavaScript Documentation</header>
+		<ul>
+			<a class="nav-link" href="#javascriptSyntax"><li>JavaScript General Syntax</li></a>
+			<a class="nav-link" href="#keywordInString"><li>Keywords in Strings</li></a>
+			<a class="nav-link" href="#escapeSequences"><li>Escape Sequences in Strings</li></a>
+			<a class="nav-link" href="#getElementById"><li>document.getElementById()</li></a>
+			<a class="nav-link" href="#documentWrite"><li>document.write()</li></a>
+			<a class="nav-link" href="#length"><li>variable.length</li></a>
+			<a class="nav-link" href="#creatingArray"><li>Array</li></a>
+			<a class="nav-link" href="#accessArray"><li>Accessing an Array</li></a>
+			<a class="nav-link" href="#appendingArray"><li>myArray.push()</li></a>
+			<a class="nav-link" href="#poppingArray"><li>myArray.pop()</li></a>
+			<a class="nav-link" href="#shiftingArray"><li>myArray.shift()</li></a>
+			<a class="nav-link" href="#unshiftingArray"><li>myArray.unshift()</li></a>
+			<a class="nav-link" href="#function"><li>Functions</li></a>
+			<a class="nav-link" href="#globalScope"><li>Globale Scope and Function</li></a>
+			<a class="nav-link" href="#localScope"><li>Local Scope and Function</li></a>
+			<a class="nav-link" href="#globalVsLocal"><li>Global vs Local Scope in Functions</li></a>
+			<a class="nav-link" href="#functionReturnValue"><li>Return a Value from a Function with Return</li></a>
+			<a class="nav-link" href="#functionUndefinedvalue"><li>Understanding Undefined Value returned from a Function</li></a>
+			<a class="nav-link" href="#functionReturnValue"><li>Assignment with a Returned Value</li></a>
+			<a class="nav-link" href="#standInLine"><li>Stand in Line</li></a>
+			<a class="nav-link" href="#understandingBoolean"><li>Understanding Boolean Values</li></a>
+			<a class="nav-link" href="#ifStatement"><li>Use Conditional Logic with If Statements</li></a>
+			<a class="nav-link" href="#equalityOperator"><li>Comparison with the Equality Operator</li></a>
+			<a class="nav-link" href="#strictEqualityOperator"><li>Comparison with the Strict Equality Operator</li></a>
+			<a class="nav-link" href="#inequalityOperator"><li>Comparison with the Inequality Operator</li></a>
+			<a class="nav-link" href="#strictInequalityOperator"><li>Comparison with the Strict Inequality Operator</li></a>
+			<a class="nav-link" href="#typeof"><li>Determining the type of a variale/value</li></a>
+			<a class="nav-link" href="#greaterThanOperator"><li>Comparison with the Greater Than Operator</li></a>
+			<a class="nav-link" href="#greaterThanOrEqualToOperator"><li>Comparison with the Greater Than Or Equal To Operator</li></a>
+			<a class="nav-link" href="#andOrOperator"><li>And & Or Operator</li></a>
+			<a class="nav-link" href="#jsObject"><li>Build JavaScript Objects</li></a>
+			<a class="nav-link" href="#accessObjectPropertyWithVariable"><li>Accessing Object Properties with Variables</li></a>
+			<a class="nav-link" href="#updatingObjectProperty"><li>Updating Object Properties</li></a>
+			<a class="nav-link" href="#deleteObjectProperty"><li>Delete Properties from a JavaScript Object</li></a>
+			<a class="nav-link" href="#objectLookups"><li>Using Objects for Lookups</li></a>
+			<a class="nav-link" href="#hasOwnProperty"><li>.hasOwnProperty(propname)</li></a>
+			<a class="nav-link" href="#nestedObjects"><li>Accessing Nested Objects (JSON - JavaScript Object Notation)</li></a>
+			<a class="nav-link" href="#recordCollection"><li>Challenge: Record Collection</li></a>
+			<a class="nav-link" href="#profileLookup"><li>Challenge: Profile Lookup</li></a>
+			<a class="nav-link" href="#mathRandom"><li>Math.random() - Generate Random Fractions with JavaScript</li></a>
+			<a class="nav-link" href="generateRandomWholeNumber"><li>Generate Randome Whole Numbers with JavaScript</li></a>
+		</ul>
+	</nav>
+
+	<main id="main-doc">
+		<section id="javascriptSyntax">
+			<header>JavaScript Syntax</header>
+			<article>
+				<p>Semicolons are not required, however it is good practice to have them at the end of each statement.</p>
+				<p>Javascript ignores spaces, it is good practice to have a space before and after operations (+ - * /)</p>
+				<p>Each code line should not be longer than 80 characters in order to maintain its readibility. If code lines exceed 80 characters, it is common to include a line break after an operator</p>
+				<p>"John" + " " + "Doe" outputs "John Doe"</p>
+				<p>Comments can be added using "//" or "/*" + "*/"</p>
+				<p>Hyphens are not allowed in JavaScript, as it is reserved for subtractions.</p>
+				<p>In JavaScript, the equal sign (=) is an "assignment" operator, where as double equal to is (==)</p>
+				<p>Scripts can be placed in <code>head</code> or <code>body</code> of the HTML, placing it in <code>head</code> will have the benefit of loading the HTML elements first, which would make the webpage appear to load faster.</p>
+				<p>Scripts can also be placed in external fileor URL using the by: <code>&lt;script src="myScript.js"&gt;&lt;/script&gt;</code> OR <code>&lt;script src="https://www.w3schools.com/js/myScript1.js"&gt;&lt;/script&gt;</code></p>
+
+			</article>
+			<article>
+				<header id="keywordInString">Keywords in String</header>
+				<ul>
+					<li><code>break</code>: Termates a switch or a loop</li>
+					<li><code>continue</code>: Jumps out of a loop and starts at the top</li>
+					<li><code>debugger</code>: Stops the execution of JavaScript, and calls (if available) the debugging function</li>
+					<li><code>do ... while</code>: Executes a block of statements, and repeats the block, while a condition is true</li>
+					<li><code>for</code>: Marks a block of statements to be executed, as long as condition is true.</li>
+					<li><code>function</code>: Declares a function</li>
+					<li><code>if ... else</code>: Marks a block of statements to be executed, depending on a condition</li>
+					<li><code>return</code>: Exits a function</li>
+					<li><code>switch</code>: marks a block of statement to be executed, depending on different cases</li>
+					<li><code>try ... catch</code>: Implements error handling to a block of statement</li>
+					<li><code>var</code>: Declares a variable</li>
+				</ul>
+			</article>
+			<article>
+				<header id="escapeSequences">Escape Sequences in Strings</header>
+					<ul>
+						<li><code>\'</code> = Single Quote</li>
+						<li><code>\"</code> = Double Quote</li>
+						<li><code>\\</code> = Blackslash</li>
+						<li><code>\n</code> = Newline</li>
+						<li><code>\r</code> = Carriage Return</li>
+						<li><code>\t</code> = Tab</li>
+						<li><code>\b</code> = Backspace</li>
+						<li><code>\f</code> = Form Feed</li>
+					</ul>
+			</article>
+		</section>
+		<section id="getElementById">
+			<header>document.getElementById</header>
+			<article>
+				<p><code>document.getElementById</code> can locate an element using its id, and it is able to change the content or the attribute of the targeted element.</p>
+				<div class="sample-code">
+					<button type="button" onClick="showDate()">Click to show Date</button>
+					<button type="button" onClick="hideDate()">Click to hide date</button>
+					<button type="button" onClick="bigFontSize()">Click to use big font size</button>
+					<button type="button" onClick="smallFontSize()">Click to use small font size</button>
+					<button type="button" onClick="addText()">Click to add text</button>
+					<p id="showDateDemo"></p>
+				</div>
+			</article>
+				<p>Scripts can be placed in <code>head</code> or <code>body</code> of the HTML, placing it in <code>head</code> will have the benefit of loading the HTML elements first, which would make the webpage appear to load faster.</p>
+				<p>Scripts can also be placed in external fileor URL using the by: <code>&lt;script src="myScript.js"&gt;&lt;/script&gt;</code> OR <code>&lt;script src="https://www.w3schools.com/js/myScript1.js"&gt;&lt;/script&gt;</code></p>
+		</section>
+		<section id="documentWrite">
+			<header>document.write()</header>
+			<article>
+				<p>Once the following script runs, the entire webpage should only be left with one line of text</p>
+				<div class="sample-code">
+					<button type="button" onClick="writeDocument()">Click to run script</button>
+				</div>
+			</article>
+		</section>
+		<section id="windowAlert">
+			<header>window.alert()</header>
+			<article>
+				<p>Displaying an alert window</p>
+				<div class="sample-code">
+					<button type="button" onClick="window.alert('This is an alert window')">Alert Window</button>
+				</div>
+			</article>
+		</section>
+		<section id="consoleLog">
+			<header>console.log()</header>
+			<article>
+				<p>lines can be printed in console using this script</p>
+				<div class="sample-code">
+					<button type="button" onClick="console.log('logging in console')">Click to perform console log</button>
+				</div>
+			</article>
+		</section>
+		<section id="length">
+			<header>variable.length</header>
+			<p><code>variable.length</code></p>
+			<div class="sample-code">
+				<button type="button" onClick="console.log(z.length)">Click to print z.length in console</button>
+			</div>
+		</section>
+		<section id="array">
+			<header id="creatingArray">Array</header>
+			<article>
+			<p><code>variable[0]</code> can be used to find a certain character in the index</p>
+			<p>Strings in JavaScript are immutable, which means you cannot reassigned an individual character to a certain index.</p>
+			<p>However the entire variable can be reassigned.</p>
+			<header id="accessArray">Accessing an Array</header>
+			<div class="sample-code">
+					<p>var array = ["string", 30, ["stringA", "stringB"], "another string"];</p>
+			</div>
+			<p>In order to access "StringB", we can use the <code>array[2][1]</code></p>
+			<header id="appendingArray">myArray.push()</header>
+			<p>You can add (append) data at the end of the array by using <code>myArray.push(["dog", 3]);</code></p>
+			<div class="sample-code">
+				<button type="button" onClick="console.log(myArray)">Click to print myArray in console</button>
+				<button type="button" onClick="myArray.push([3, 4, 4, 'dog'])">Click to append myArray</button>
+			</div>
+			<header id="poppingArray">myArray.pop()</header>
+			<p>You can pop (remove) a value off the end of an array using <code>myArray.pop()</code></p>
+			<div class="sample-code">
+				<p>myArray = [1, 2, 3]</p>
+				<p>temp = myArray.pop()</p>
+				<p>console.log(temp); //return 3</p>
+				<p>console.log(myArray); //return [1, 2]</p>
+			</div>
+			<header id="shiftingArray">myArray.shift()</header>
+			<p>This works similarly to .pop(), however instead of popping off the value at end of the array, it takes away the first value of the array</p>
+			<div class="sample-code">
+				<p>myArray = [1, 2, 3]</p>
+				<p>temp = myArray.shift()</p>
+				<p>console.log(temp); //return 1</p>
+				<p>console.log(myArray); //return [2, 3]</p>
+			</div>
+			<header id="unshiftingArray">myArray.unshift()</header>
+			<p>This script allows for adding a value into the front of an array</p>
+			<div class="sample-code">
+				<p>myArray = [1, 2, 3]</p>
+				<p>temp = myArray.unshift(5)</p>
+				<p>console.log(myArray); //return [5, 1, 2, 3]</p>
+			</div>
+			</article>
+		</section>
+		<section id="function">
+			<article>
+				<header>Passing values to Functions with Arguments</header>
+				<p>Parameters are variables that act as placeholders for the values that are to be input to a function when it is called. When a function is defined, it is typically defined along with one or more parameters. The actual values that are input (or "passed") into a function when it is called are known as arguments.</p>
+				<p>Here is a function with two parameters, param1 and param2:</p>
+				<div class="sample-code">
+					<p>function testFun(param1, param2) {</p>
+					<p>console.log(param1, param2);</p>
+					<p>}</p>
+				</div>
+				<p>Then we can call <code>testFun</code>:
+				<p><code>testFun("Hello", "World");</code></p>
+				<p>We have passed two arguments, "Hello" and "World". Inside the function, param1 will equal "Hello" and ar witll equal "World". Note that you could call testFun again with different arguments and the parameters would take on the value of the new arguments.</p>
+			</article>
+			<header id="globalScope">Global Scope and Functions</header>
+			<article>
+				<p>In JavaScript, scope refers to the visibility of variables. Variables which are defined outside of a function block have Global scope. This means, they can be seen everywhere in your JavaScript code.</p>
+				<p>variables which are used without the <code>var</code> keyword are automatically created in the <code>global</code> scope. this can create unintended consequences elsewhere in your code or when running a function again. You should always declare your variables with <code>var</code>.</p>
+			</article>
+			<header id="localScope">Local Scope and Functions</header>
+			<p>Variables which are declared within a function, as well as the function parameters have local scope. That means, they are only visible within that function.</p>
+			<p>Here is a function <code>myTest</code> with a local variable called <code>loc</code>.</p>
+			<div class="sample-code">
+				<p>function myTest() {</p>
+				<p>var loc = "foo";</p>
+				<p>console.log(loc);</p>
+				<p>}</p>
+				<p>myTest(); //logs "foo"</p>
+			</div>
+			<p>console.log(loc); //loc is not defined</p>
+			<header id="globalVsLocal">Global vs Local Scope in Functions</header>
+			<p>It is possible to have both local and global variables with the same name. When you dod this, the local variable takes precedence over the global variable.</p>
+			<p>In this example:</p>
+			<div class="sample-code">
+				<p>var someVar = "Hat";</p>
+				<p>function myFun() {</p>
+				<p> var someVar = "Head";</p>
+				<p>return someVar;</p>
+				<p>}</p>
+			</div>
+			<p>The function <code>myFun</code> will return <code>"Head"</code> because the <code>local </code>version of the variable is present.</p>
+			<header id="functionReturnValue">Return a Value from a Function with Return</header>
+			<p>We can pass values into a function with arguments. you canuse a <code>return</code> statement to send a value back out of a function.</p>
+			<div class="sample-code">
+				<p>function plusThree(num) {</p>
+				<p>return num + 3;</p>
+				<p>}</p>
+				<p>var answer = plusThree(5); //8</p>
+			</div>
+			<p><code>plusThree</code> takes an argument from <code>num</code> ad returns a value equal to <code>num + 3</code>.</p>
+			<header id="functionUndefinedvalue">Understanding Undefined Value returned from a Function</header>
+			<p>A function can include the <code>return</code> statement but it does not have to. In the case that the function doesn't have <code>return</code> statement, when you call it, the function processes the inner code but the returned value is <code>undefined</code>
+			<div class="sample-code">
+				<p>var sum = 0;</p>
+				<p>function addSum(num) {</p>
+				<p>sum = sum + num;</p>
+				<p>}</p>
+				<p>var returnedValue = addSum(3); //sum will be modified but returned value is undefined</p>
+			</div>
+			<p><code>addSum</code> is a function without a <code>return</code> statement. The function will change the global <code>sum</code> variable but the returned value of the function is <code>undefined</code></p>
+			<header id="functionReturnedValueAssignment">Assignment with a Returned Value</header>
+			<p>If you'll recall from our discussion of Storing Values with the Assignment Operator, everything to the right of the equal sign is resolved before the value is assigned. This means we can take the returned value of a function and assign it to a variable.</p>
+			<p>Assume we have pre-defined a functino <code>sum</code> which addes two numbers together, then:</p>
+			<p><code>ourSum = sum(5, 12);</code></p>
+			<p>will call <code>sum</code> function, which returns a value of <code>17</code> and assigns it to <code>ourSum</code> variable.</p>
+			<header id="standInLine">Stand in Line</header>
+			<article>
+				<p>In Computer Science a queue is an abstract Data Structure where items are kept in order. New items can be added at the back of the <code>queue</code> and old items are taken off from the front of the <code>queue</code>.</p>
+				<p>Write a function <code>nextInLine</code> which takes an array( <code>arr</code> ) and a number ( <code>item</code> ) as arguments.</p>
+				<p>Add the number to the end of the array, then remove the first element of the array.</p>
+				<p>The <code>nextInLine</code> function should then return the element that was removed.</p>
+				<div class="sample-code">
+					<p>function nextInLine(arr, item) {</p>
+					<p>var temp;</p>
+					<p>arr.push(item);</p>
+					<p>temp = arr.shift();</p>
+					<p>return temp;</p>
+					<p>}</p>
+					<p>var testArr = [1,2,3,4,5];</p>
+					<p>// Display Code</p>
+					<p>console.log("Before: " + JSON.stringify(testArr));</p>
+					<p>console.log(nextInLine([], 1)); // Modify this line to test</p>
+					<p>console.log("After: " + JSON.stringify(testArr));</p>
+				</div>
+			</article>
+		</section>
+		<section id="booleanValue">
+			<header id="understandingBoolean">Understanding Boolean Values</header>
+			<p>another data type is the Boolean. <code>Booleans</code> may only be one of two values: <code>true</code> or <code>false</code>. They are basically little on-off swithces, where <code>true</code> is "on" and <code>false</code> is "off". These two states are mutually exclusive.</p>
+			<p><code>Boolean</code> values are never written with quotes. THe <code>strings "true"</code> and <code>"false"</code> are not <code>Boolean</code> and have no special meaning in JavaScript.</p>
+		</section>
+		<section id="contionalLogic">
+			<header id="ifStatement">Use Conditional Logic with If Statements</header>
+			<div class="sample-code">
+				<p>function test (myCondition) {<p>
+				<p>if (myCondition) {</p>
+				<p>return "It was true";</p>
+				<p>}</p>
+				<p>return "It was false";</p>
+				<p>}</p>
+				<p>test(true); //returns "It was true"</p>
+				<p>test (false); //returns "It was false"</p>
+			</div>
+			<header id="conditionalOperator">The Conditional (Ternary) Operator</header>
+			<div class="sample-code">
+				<p>function findGreater(a, b) {</p>
+				<p>if (a > b) {</p>
+				<p>return "a is greater";</p>
+				<p>else {</p>
+				<p>return "b is greater";</p>
+				<p>}</p>
+				<p>}</p>
+			</div>
+			<p>The above statment can be re-written using the <code>COnditional Operator</code></p>
+			<div class="sample-code">
+				<p>function findGreater(a, b) {</p>
+				<p>return a > b ? "a is greater" : "b is greater";</p>
+				<p>}</p>
+			</div>
+			<p>Ternary operators can also be chained up</p>
+			<div class="sample-code">
+				<p>function checkSign(num) {</p>
+				<p>return (num == 0) ? "zero" : (num > 0) ? "positive" : "negative";</p>
+				<p>}</p>
+				<p>checkSign(10); // returns "positive"</p>
+				<p></p>
+			</div>
+		</section>
+		<section id="equalityOperator">
+			<header>Comparison with the Equality Operator</header>
+			<p>There are many Comparison Operators in JavaScript. All of these operators return a boolean <code>true</code> or <code>false</code> value.</p>
+			<p>The most basic operator is the equality operator <code>==</code>. The eqality operator compares two values and returns <code>true</code> if they're equivalent or <code>false</code> if they are not. Note that equality is different from assignment ( <code>=</code> ), which assigns the value at the right of the operator to a variable in the left.</p>
+			<div class="sample-code">
+				<p>function equalityTest(myVal) {</p>
+				<p>if (myVal == 10) {</p>
+				<p>return "Equal";</p>
+				<p>}</p>
+				<p>return "Not Equal";</p>
+				<p>}</p>
+			</div>
+			<p>In order for JavaScript to compare two different <code>data types</code> (for example, numbers and strings), it must convert one type to another. This is known as "Type Coercion". Once it does, however, it can compare terms as follows:
+			<div class="sample-code">
+				<li>1 == 1 // true</li>
+				<li>1 == 2 // false</li>
+				<li>1 == '1' // true</li>
+				<li>"3" == 3 // true</li>
+			</div>
+			<header id="strictEqualityOperator">Comparison with the Strict Equality Operator</header>
+			<p>Strict equality ( <code>===</code> ) is the counterpart to the equality operator ( <code>==</code> ). However, unlike the equality operator, which attempts to convert both values being compared to a common type, the strict equality operator does not perform a type conversion.</p>
+			<p>If the values being compared have different types, they are considered unequal, and the strict equality operator will return false.</p>
+			<div class="sample-code">
+				<li>3 === 3 // true</li>
+				<li>3 === '3' // false</li>
+			</div>
+			<p>There is an easy way of returning boolean values, for example the following piece of script can be condensed from:</p>
+			<div class="sample-code">
+				<p>function isEqual (a, b) {</p>
+				<p>if (a === b) {</p>
+				<p>return true;</p>
+				<p>} else if {</p>
+				<p>return false;</p>
+				<p>}</p>
+				<p>}</p>
+			</div>
+			<p>Into this, because comparison operator returns boolean values:</p>
+			<div class = "sample-code">
+				<p>function isEqual (a, b) {</p>
+				<p>return 1 === b;</p>
+				<p>}</p>
+			</div>
+			<header id="inequalityOperator">Comparison with the Inequality Operator</header>
+			<p>The inequality operator (<code>!=</code>) is the opposite of the equality operator. It means "Not Equal" and returns <code>false</code> where eqality would return <code>true</code> and vice versa. Like the equality operator, the inequality operator will convert data types of values while comparing.</p>
+			<div class="sample-code">
+				<p>1 != 2 // true</p>
+				<p>1 != "1" // false</p>
+				<p>1 != '1' // false</p>
+				<p>1 != true // false</p>
+				<p>1 != false // false</p>
+			</div>
+			<header id="strictInequalityOperator">Comparison with the Strict Inequality Operator</header>
+			<p>The strict inequality operator (<code>!==</code>) is the logical opposite of the strict equality operator. It means "Strictly Not Equal" and returns <code>fase</code> where strict equality would return <code>true</code> and vice versa. Strict inequality will not convert data types.</p>
+			<header id="typeof">Determining the type of a Variable/Value</header>
+			<p>In JavaScript, you can determine the type of a variable or a value with the <code>typeof</code> operator, as follows:</p>
+			<div class="sample-code">
+				<p>typeof 3 // returns 'number'</p>
+				<p>typeof '3' // returns 'string'</p>
+			</div>
+			<header id="greaterThanOperator">Comparison with the Greater Than Operator</header>
+			<p>The greater than operator (<code>></code>) compares the values of two numbers. If the number to the left is greater than the number to the right, it returns <code>true</code>. Otherwise, it returns <code>false</code>.</p>
+			<p>Like the equality operator, greater than operator will convert data types of values while comparing</p>
+			<div class="sample-code">
+				<p>5 > 3 // true</p>
+				<p>7 > '3' // true</p>
+				<p>2 > 3 // false</p>
+				<p>'1' > 9 // false</p>
+			</div>
+			<header id="greaterThanOrEqualToOperator">Comparison with the Greater Than Or Equal To Operatror</header>
+			<div class="sample-code">
+				<p>6 >= 6 // true</p>
+				<p>7 >= '3' // true</p>
+				<p>2 >= 3 // false</p>
+				<p>'7' >= 9 // false</p>
+			</div>
+			<p>Like the equality operator, greater than operator will convert data types of values while comparing</p>
+			<header id="andOrOperator">And (<code>&&</code>) & Or (<code>||</code>) Operator</header>
+		</section>
+		<section id="jsObject">
+			<header>Build JavaScript Objects</header>
+			<article>
+				<p>Objects are similar to <code>arrays</code>, except that instead of using indexes to access and modify their data, you accses the data in objects through what are called <code>properties</code></p>
+				<p>Objects are useful for storing data in a structured way, and can represent real world objects, liek a cat:</p>
+				<div class="sample-code">
+					<p>var cat = {</p>
+					<p>"name": "Whiskers",</p>
+					<p>"legs": 4,</p>
+					<p>"tails": 1;</p>
+					<p>"enemies": ["Water", "Dogs"],</p>
+					<p>50: "five",</p>
+					<p>make: "Ford",</p>
+					<p>"Space Name": 50</p>
+					<p>};</p>
+				</div>
+				<li>Numbers can be used as properties</li>
+				<li>You can omit the quotes for single-word string properties</li>
+				<li>If objects has any non-string properties, JavaScript will automatically typecast them as strings.</li>
+				<li>Object Properties can be accessed using dot notation, such as <code>temp = cat.name; // temp = Whiskers</code></li>
+				<li>For Object Properties with a space in it, it can be accessed using bracket notation: <code>temp = car["Space Name"]; //temp = 50</code></li>
+				<header id="accessObjectPropertyWithVariable">Accessing Object Properties with Variables</header>
+				<p>Another use of bracket notation ob objects is to access a property which is stored as the value of a variable. This can be very useful for iterating through an object's properties or when accessing a lookup table</p>
+				<div class="sample-code">
+					<p>var dogs = {</p>
+					<p>Fido: "Mutt", Hunter: "Doberman", Snoopie: "Beagle"</p>
+					<p>};</p>
+					<p>var myDog = "Hunter";</p>
+					<p>var myBreed = dogs[myDog];</p>
+					<p>console.log(myBreed); //"Doberman"</p>
+				</div>
+				<div class="sample-code">
+					<p>var someObj = {propName: "John"};</p>
+					<p>function propPrefix(str) {</p>
+					<p>var s = "prop";</p>
+					<p>return s + str;</p>
+					<p>}</p>
+					<p>var someProp = proPrefix("Name"); //someProp now holds the value 'propName'</p>
+					<p>console.log(someObj[someProp]); //"John"</p>
+				</div>
+				<header id="updatingObjectProperty">Updating Object Properties</header>
+				<p>After you've created a JavaScript object, you can update its properties at any time just like you would update any other variable. you can use either dot or bracket notation to update:</p>
+				<p><code>cat.name = "Two Whiskers";</code></p>
+				<p><code>cat["name"] = "Two Whisters";</code></p>
+				<p>If the property name does not exist, the above scripts will add the property into the object.</p>
+				<header id="deleteObjectProperty">Delete Properties from a JavaScript Object</header>
+				<p><code>delete cat.name;</code></p>
+				<header id="objectLookups">Using Objects for Lookups</header>
+				<p>Objects can be thought of as key/value storage, like a dictionary. If you have tabular data, you can use an object to "lookup" values rather than a <code>swtich</code> statement or an <code>if/else</code> chain. This is most useful when you know that your input data is limited to a certain range.</p>
+				<div class="sample-code">
+					<p>function phoneticLookup (val) {</p>
+					<p>var result = "";</p>
+					<p>var temp = {</p>
+					<p>"alpha": "Adams",</p>
+					<p>"bravo": "Boston",</p>
+					<p>charlie: "Chicago",</p>
+					<p>"delta": "Denver",</p>
+					<p>"echo": "Easy",</p>
+					<p>"foxtrot": "Frank"</p>
+					<p>}</p>
+					<p>result = temp[val];</p>
+					<p>return result;</p>
+					<p>}</p>
+					<p>console.log(phoneticLookup(bravo")); //Boston</p>
+					<p></p>
+				</div>
+				<header id="hasOwnProperty">.hasOwnProperty(propname)</header>
+				<p>Sometimes it is useful to check if the property of a given object exists or not. We can use <code>hasOwnProperty()</code> method of objects to determine if that object has the given property name. It returns <code>true</code> or <code>false</code> if the property is found or not.</p>
+				<div class="sample-code">
+					<p>cat.hasOwnProperty("name"); // true</p>
+					<p>cat.hasOwnProperty("middleName"); // false</p>
+				</div>
+			</article>
+			<header id="nestedObjects">Accessing Nested Objects (JSON - JavaScript Object Notation)</header>
+			<p>The sub-properites of objects can be accessed by chaining together the dot or bracket notation.</p>
+			<div class="sample-code">
+				<p>var ourStroage = {</p>
+				<p>"desk": {</p>
+				<p>"drawer": "stapler"</p>
+				<p>},</p>
+				<p>"cabinet": {</p>
+				<p>"top drawer": {</p>
+				<p>"folder1": "a file",</p>
+				<p>"folder2": "secrets"</p>
+				<p>},</p>
+				<p>"bottom drawer": "soda"</p>
+				<p>},</p>
+				<p>array: ["string1", 2, true]</p>
+				<p>};</p>
+				<p>ourStorage.cabinet["top drawer"].folder2; //"secrets"</p>
+				<p>ourStorage.desk.drawer; //"stapler"</p>
+				<p>ourStorage.array[0]; //"string1"</p>
+			</div>
+			<header id="recordCollection">Challenge: Record Collection</header>
+			<p>You are given a JSON object representing a part of your musical album collection. Each album has several properties and a unique id number as its key. Not all albums have complete information.</p>
+			<p>Write a function which takes an album's id (like 2548), a property prop (like "artist" or "tracks"), and a value (like "Addicted to Love") to modify the data in this collection.</p>
+			<p>If prop isn't "tracks" and value isn't empty (""), update or set the value for that record album's property.</p>
+			<p>Your function must always return the entire collection object.</p>
+			<p>There are several rules for handling incomplete data:</p>
+			<p>If prop is "tracks" but the album doesn't have a "tracks" property, create an empty array before adding the new value to the album's corresponding property.</p>
+			<p>If prop is "tracks" and value isn't empty (""), push the value onto the end of the album's existing tracks array.</p>
+			<p>If value is empty (""), delete the given prop property from the album.</p>
+			<div class="sample-code">
+				<p>var collection = {</p>
+				<p>    "2548": {"album": "Slippery When Wet", "artist": "Bon Jovi", "tracks": ["Let It Rock", "You Give Love a Bad Name"]},</p>
+				<p>      "2468": {"album": "1999", "artist": "Prince", "tracks": ["1999", "Little Red Corvette"]},</p>
+				<p>    "1245": {"artist": "Robert Palmer", "tracks": [ ]},</p>
+				<p>    "5439": {"album": "ABBA Gold"}};</p>
+				<p>var collectionCopy = JSON.parse(JSON.stringify(collection)); // Keep a copy of the collection for tests</p>
+				<p>function updateRecords(id, prop, value) {</p>
+				<p>switch (prop) {</p>
+				<p>case "tracks":</p>
+				<p>if (collection[id].hasOwnProperty(prop) == false) {</p>
+				<p>collection[id][prop] = [];</p>
+				<p>}</p>
+				<p>collection[id][prop] = value;</p>
+				<p>break;</p>
+				<p>default:</p>
+				<p>collection[id][prop] = value;</p>
+				<p>}</p>
+				<p>break;</p>
+				<p>if (value == "") {</p>
+				<p>delete collection[id][prop];</p>
+				<p>}</p>
+				<p>return collection;</p>
+				<p>}</p>
+				<p>updateRecords("5439", "tracks", "abcd");<p>
+			</div>
+			<a href="https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/record-collection/"><p>Free Code Came  Page</p></a>
+			<header id="profileLookup">Challenge: Profile Lookup</header>
+			<a href="https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/profile-lookup/"><p>Free Code Came  Page</p></a>
+		</section>
+		<section id="mathRandom">
+		<header>Math.random() - Generate Random Fractions with JavaScript</header>
+		<article>
+			<p>Random umbers are useful for creating random behavior.</p>
+			<p>JavaScript has a <code>Math.random()</code> function that generates a random decimal numer between <code>0</code> (inclusive) and not quite up to <code>1</code> (exclusive).</p>
+			<p>Like Storing Values with the Equal Operator, all functions calls will be resolved before the <code>return</code> executes, so we can return the value of the <code>Math.random()</code> function.</p>
+		</article>
+		<header id="generateRandomWholeNumber">Generate Random Whole Numbers with JavaScript</header>
+			<article>
+				<p>It's great that we can generate random decimal numbers, but it's even more useful if we use it to generate random whole numbers</p>
+				<ol>
+					<li>Use <code>Math.random()</code> to generate a random decimal</li>
+					<li>Multiply that random decimal by <code>20</code></li>
+					<li>Use another funcion, <code>Math.floor()</code> to round the numer down to its nearest whole number</li>
+				</ol>
+				<div class="sample-code">
+					<p>Math.floor(Math.random() * 20);</p>
+					<p>Math.floor(Math.random() * (myMax - myMin + 1) + myMin);</p>
+				</div>
+				<p>Since <code>Math.random()</code> can never return <code>1</code>, the above script would give us a random whole numberbetween <code>0</code> and <code>19</code>.</p>
+				<p>The line with <code>max</code> and <code>min</code> allows to generate a random number tha falls within the range of specific numbers</p>
+			</article>
+		</section>
+		<section id="parseInt">
+			<header>parseInt()</header>
+			<article>
+				<p>This functions parses a string and returns an integer.</p>
+				<p><code>var a = parseInt("007");</code></p>
+				<p>The above function converts the string "007" to an integer 7. If the first character in the string can't e converted into a number, then it returns <code>Nan</code></p>
+			</article>
+			<header id="radix">Use the parseInt FUnction with a Radix</header>
+			<article>
+				<p>The <code>parseInt()</code> function parses a string and returns an integer. It takes a second argument for the radix, which specifies the base of the number in the string. The radix can be an integer between 2 and 36.</p>
+				<div class="sample-code">
+					<p>parseInt(string, radix)</p>
+					<p>var a = parseInt("11", 2);</p>
+				</div>
+				<p>The radix variable says that "11" is in the binary system, or ase 2. This example converts the string "11" to an integer 3.</p>
+			</article>
+		</section>
+		<section id="es6Challenges">
+			<header id="introduction">Introduction to the ES6 Challenges</header>
+			<p>ESMAScript is a standardized version of JavaScript with the goal of unifying the language's specifications and features. As all major browsers and JavaScript-runtimes follow this specification, the term ECMAScript is interchangeable with the term JavaScript.</p>
+			<p>Most of the challenges on freeCodeCapm use the ECMAScript 5 (ES5) specification of the language, finalized in 2009. But JavaScript is an evolving programming language. As features are added and revisions are made, new versions of the language are released for use by developers.</p>
+			<p>THe most recent standardized version is called ECMAScript 6 (ES6), released in 2015. This new version of the language adds some pwerful features that will be covered in this section of challenges, including:</p>
+			<ul>
+			<li>Arrow functions</li>
+			<li>Classes</li>
+			<li>Modules</li>
+			<li>Promises</li>
+			<li>Generators</li>
+			<li><code>let</code> and <code>const</code></li>
+			</ul>
+			<p>Not all browsers support ES6 features. If you use ES6 in your own projects, you may need to use a program (transpiler) to convert your ES6 code into ES5 until browsers support ES6.</p>
+			<header id="useStrict">Strict Mode??</header>
+			<p><code>"use strict"</code> enables Strict Mode, which catches cmomon coding mistakes and "unsafe" actions". For instance:</p>
+			<div class="sample-code">
+				<p>"use strict";</p>
+				<p>x = 3.14; // throws an error because x is not declared</p>
+			</div>
+			<p><code>let</code> has a local scope</p>
+			<header id="const">const</header>
+			<p><code>const</code> has a similar features to <code>let</code>, and on top of that they are read-only.</p>
+			<div class="sample-code">
+				<p>"use strict"</p>
+				<p>const FAV_PET = "Cats";</p>
+				<p>FAV_PET = "Dogs"; //returns error</p>
+			</div>
+			<p>Trying to reassign a variable declared with <code>const</code> will throw an error.</p>
+			<p>It is common practice to captalize <code>const</code> names</p>
+			<p>Some develpers prefer to assign all their variables using <code>const</code> by default, unless they know they will need to reassign the value. Only in that case, they use <code>let</code></p>
+			<p>However, it is important to understand that objects (including arrays and functions) assigned to a variable using <code>const</code> are still mutable. Using const declaration only prevents reassignment of the variable identifier.</p>
+			<div class="sample-code">
+				<p>"use strict";</p>
+				<p>const s = [5, 6, 7];</p>
+				<p>s = [1, 2, 3]; // throws error, trying to assign a const</p>
+				<p>s[2] = 45; // works just as it would with an array declared with var or let </p>
+				<p>console.log(s); // returns [5, 6, 45]</p>
+				<p></p>
+				<p></p>
+			</div>
+			<header id="preventObjectMutation"> Preent Object Mutation</header>
+			<article>
+			<p>As seen in the previous challenge, <code>const</code> declaration alone doesn't really protect your data from mutation. To ensure your data doesn't change, JavaScript provides a function <code>Object.freeze</code> to prevent data mutation.</p>
+			<p>Once the object is frozen, you can no longer add, update, or delete properties from it. Any attempt at changing the object will be reject without an error</p>
+			</article>
+			<header id="arrorFunction">Use Arrow Function to Write COnsice Anonymous Functions</header>
+			<article>
+				<p>In JavaScript, we often don't need to name our functions, especially when passing a function as an argument to another function. Instead, we create inline functions. We don't need to name these functions because we do not reuse them anywhere else.</p>
+				<p>To achieve this, we often use the following syntax:</p>
+				<div class="sample-code">
+					<p>const myFunc = function() {</p>
+					<p>const myVar = "value";</p>
+					<p>return myVar;</p>
+					<p>}</p>
+				</div>
+				<p>ES6 provides us with the syntactic sugar to not have to write anonymous functions this way. Instead, you can use arrow function syntax:</p>
+				<div class="sample-code">
+					<p>const myFunc = () => {</p>
+					<p>const myVar = "value";</p>
+					<p>return myVar;</p>
+					<p>}</p>
+				</div>
+				<p>When there is no function body, and only a return value, arrow function syntax allows you to omit the keyword <code>return</code> as well as the brackets surroundig the coe. THis helps simplify smaller functions into one-line statements:</p>
+				<div class="sample-code">
+					<p>const myFunc = () => "value";</p>
+				</div>
+				<p>Just like a normal function, you can pass arguments into arrow functions.</p>
+				<div class="sample-code">
+					<p>doubles input value and returns it const doubler = (item) => item * 2;</p>
+				</div>
+				<p>You can pass more than one argument into arrow functions as well.</p>
+			</article>
+		</section>
+
+		<section id="outstandingQuestion">
+		<header id="new">What is the <code>new</code> Operator?</header>
+		<article>
+			<p>return new date()</p>
+			<p>the <code>new</code> operator creates an instance of a user-defined object type or of one of the build-in object types that has a constructor function.</p>
+			<div class="sample-code">
+				<p>function Car(make, model, year) {</p>
+				<p>this.make = make;</p>
+				<p>this.model = model;</p>
+				<p>this.year = year;</p>
+				<p>}</p>
+				<p>var car1 = new Car("Eagle", "Talon TSi", 1993);</p>
+				<p>console.log(car1.make); // returns "Eagle"</p>
+			</div>
+		</article>
+		<header id="variableConcat">What is variable.concat()</header>
+		<article>
+
+		</article>
+		<header id="higherOrderFunction">What are Higher Order Functions? map(), filter9), reduce()</header>
+		<article>
+		<p>map()</p>
+		<p><code>filter()</code></p>
+		<div class="sample-code">
+			<p>function isBigEnough(value) {</p>
+			<p>return value >= 10;</p>
+			<p>}</p>
+			<p>var filtered = [12, 5, 8, 130, 44].filter(isBigEnough); // filter = [12, 130, 44]</p>
+		</div>
+		<p><code>reduce()</code></p>
+		<p>This method executes a reducer function (that I provide) on each memeber of the array resulting in a single output value.</p>
+		<p>This function is fed four parameters:</p>
+		<ol>
+			<li>Accumulator (acc)</li>
+			<li>Current Value (cur)</li>
+			<li>Curernt Index (idx)</li>
+			<li>Source Array (src)</li>
+		</ol>
+		<p>Your reducer function's returned value is assigned to the accumulator, whose value is remembered across each iteration throughout the array and ultimately becomes the final, single resulting value.</p>o
+		<div class="sample-code">
+		<p>const array1 = [1, 2, 3, 4];</p>
+		<p>const reducer = (accumulator, currentValue) => accumulator + curerntValue;</p>
+		<p>console.log(array1.reduce(reducer)); //returns 1 + 2 + 3 + 4</p>
+		<p>console.log(array.reduce(reducer, 5)); // returns 1 + 2 + 3 + 4 +5</p>
+
+		</div>
+		</article>
+		</section>
+	</main>
+	<script>
+		var x = 1;
+		var y = 20;
+		var z = "ABCDEFGHIJK";
+		myArray = ["a", "b", "c", "d", [1, 2, 3, 4, 5, 6], "e"];
+		function showDate() {
+			document.getElementById('showDateDemo').innerHTML = Date();
+			document.getElementById('showDateDemo').style.display = 'block';
+		}
+		function hideDate() {
+			document.getElementById('showDateDemo').style.display = 'none';
+		}
+		function bigFontSize() {
+			document.getElementById('showDateDemo').style.fontSize = '50px';
+		}
+		function smallFontSize() {
+			document.getElementById('showDateDemo').style.fontSize = '25px';
+		}
+		function addText() {
+			document.getElementById('showDateDemo').innerHTML += ' \n You have added text ' + x + ' times';
+			x++;
+		}
+		function writeDocument() {
+			document.write('write.Document has een triggered');
+		}
+	</script>
+
+
+</html>

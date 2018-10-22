@@ -1,0 +1,14 @@
+C Introduction
+https://www.includehelp.com/c/
+
+Awesome C Github
+https://github.com/aleksandar-todorovic/awesome-c
+
+Git Cheatsheet
+https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf
+
+Mac Terminal Navigation Cheatsheet
+https://gist.github.com/poopsplat/7195274
+
+CWithGit GitHub
+https://github.com/Fireball889/CWithGit
