@@ -1,0 +1,40 @@
+<html>
+
+	<head>
+		<title>JavaScript Playground</title>
+	</head>
+	
+	<body>
+		<label>Input a number: </label>
+		<input type="text" id="userInput" placeholder="userInput" value="88">
+		<button type="button" onclick="printUserInput()">Print </button>
+		<br>
+		<label>System Output: </label>
+		<input type="text" id="demoOutput" placeholder="demoOutput">
+		<br>
+		<br>
+		<button type="button" onclick="saveUserInput()">Save & Print</button>
+		<button type="button" onclick="printUserInputHistory">Print User Input History</button>
+	</body>
+
+	<script>
+		var userInputHistory = [10, 20];
+		
+		function printUserInput() {
+			var userInputValue = document.getElementById('userInput').value;
+			if(userInputValue > 100) {
+				window.alert('userInputValue > 100');
+			}
+			document.getElementById('demoOutput').value = userInputValue;
+		}
+		function saveUserInput() {
+			userInputHistory.push(document.getElementById('userInput').value);
+			document.getElementById('demoOutput').value = userInputHistory;
+		}
+		function printUserInputHistory() {
+			console.log(userInputHistory);
+		}
+		
+	</script>
+	
+</html>
